@@ -1,0 +1,111 @@
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "1UK-8n-QPP"; */
+"1UK-8n-QPP.title" = "Customize Toolbar…";
+
+/* Class = "NSMenuItem"; title = "TGMacApp"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "TGMacApp";
+
+/* Class = "NSMenuItem"; title = "Enter Full Screen"; ObjectID = "4J7-dP-txa"; */
+"4J7-dP-txa.title" = "Enter Full Screen";
+
+/* Class = "NSMenuItem"; title = "Quit TGMacApp"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit TGMacApp";
+
+/* Class = "NSMenuItem"; title = "About TGMacApp"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About TGMacApp";
+
+/* Class = "NSViewController"; title = "MD5"; ObjectID = "9CO-cS-2mR"; */
+"9CO-cS-2mR.title" = "MD5";
+
+/* Class = "NSViewController"; title = "RSA"; ObjectID = "9sz-tJ-W3h"; */
+"9sz-tJ-W3h.title" = "RSA";
+
+/* Class = "NSButtonCell"; title = "大写"; ObjectID = "A3n-Tn-YD2"; */
+"A3n-Tn-YD2.title" = "大写";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Preferences…";
+
+/* Class = "NSViewController"; title = "MD5"; ObjectID = "DDI-zt-ayt"; */
+"DDI-zt-ayt.title" = "MD5";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "TGMacApp Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "TGMacApp Help";
+
+/* Class = "NSTextFieldCell"; placeholderString = "32位秘文"; ObjectID = "GCX-Se-tHe"; */
+"GCX-Se-tHe.placeholderString" = "32位秘文";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v"; */
+"H8h-7b-M4v.title" = "View";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO"; */
+"HyV-fh-RgO.title" = "View";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
+"NMo-om-nkz.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Hide TGMacApp"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide TGMacApp";
+
+/* Class = "NSTextFieldCell"; placeholderString = "16位秘闻"; ObjectID = "SZY-Ny-MJi"; */
+"SZY-Ny-MJi.placeholderString" = "16位秘闻";
+
+/* Class = "NSMenuItem"; title = "Show Toolbar"; ObjectID = "Sfj-mt-zzg"; */
+"Sfj-mt-zzg.title" = "Show Toolbar";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSViewController"; title = "sha"; ObjectID = "Wef-g5-6lE"; */
+"Wef-g5-6lE.title" = "sha";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "16位"; ObjectID = "aaL-rL-I60"; */
+"aaL-rL-I60.title" = "16位";
+
+/* Class = "NSButtonCell"; title = "小写"; ObjectID = "dXg-Ew-0xB"; */
+"dXg-Ew-0xB.title" = "小写";
+
+/* Class = "NSViewController"; title = "RSA"; ObjectID = "dhQ-cH-fjb"; */
+"dhQ-cH-fjb.title" = "RSA";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
+"hz9-B4-Xy5.title" = "Services";
+
+/* Class = "NSTextFieldCell"; title = "32位"; ObjectID = "jLG-QX-2iN"; */
+"jLG-QX-2iN.title" = "32位";
+
+/* Class = "NSMenuItem"; title = "Show Sidebar"; ObjectID = "kIP-vf-haE"; */
+"kIP-vf-haE.title" = "Show Sidebar";
+
+/* Class = "NSButtonCell"; title = "大写"; ObjectID = "nLE-Sv-ihA"; */
+"nLE-Sv-ihA.title" = "大写";
+
+/* Class = "NSMenuItem"; title = "Show Toolbar"; ObjectID = "snW-S8-Cw5"; */
+"snW-S8-Cw5.title" = "Show Toolbar";
+
+/* Class = "NSMenu"; title = "TGMacApp"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "TGMacApp";
+
+/* Class = "NSButtonCell"; title = "小写"; ObjectID = "uvb-46-5Jf"; */
+"uvb-46-5Jf.title" = "小写";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Help";

@@ -1,0 +1,39 @@
+//
+//  TGKit-prefix.h
+//  TGDevelopToolsApp
+//
+//  Created by toad on 2023/12/27.
+//
+
+#ifndef TGKit_prefix_h
+#define TGKit_prefix_h
+
+#import <Foundation/Foundation.h>
+#import <TargetConditionals.h>
+
+#if TARGET_OS_IOS
+    #import <UIKit/UIKit.h>
+#elif TARGET_OS_OSX
+    #import <Cocoa/Cocoa.h>
+#else
+    #error unknow OS
+#endif
+
+#import <SDWebImage/SDWebImage.h>
+
+#define auto_delloc(__value) \
+if (__value != nil) {\
+[__value release]; \
+__value = nil;}\
+
+#if DEBUG == 1 //wyq 取消打印 20191226
+#define TGLog(...) NSLog(__VA_ARGS__)
+#define TGInfo(format, ...) NSLog((@"\nFile:%s" "\nFunction:%s" "\nLen:%d" "\nInfo:" format), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define TGWarn(format, ...) NSLog((@"Warning:" format), ##__VA_ARGS__);
+#else
+#define TGLog(...) {}
+#define TGInfo(...) {}
+#define TGWarn(...) {}
+#endif
+
+#endif /* TGKit_prefix_h */

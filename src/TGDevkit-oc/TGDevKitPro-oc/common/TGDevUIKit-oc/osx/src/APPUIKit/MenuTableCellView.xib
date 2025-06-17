@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" customClass="MenuTableCellView">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hgq-6r-2BY">
+                    <rect key="frame" x="8" y="8" width="49" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Hgq-6r-2BY" secondAttribute="height" multiplier="53:56" id="6Sh-Mm-eL6"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="1RH-sA-5Cb"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="44x-B4-2H1">
+                    <rect key="frame" x="63" y="32" width="352" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="G28-HI-JPN"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="title" id="eIh-VH-4Ya">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wPj-VD-eFb">
+                    <rect key="frame" x="63" y="8" width="352" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="subtitle" id="Tm4-eo-kj3">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Hgq-6r-2BY" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="8" id="0fF-AM-NmY"/>
+                <constraint firstAttribute="trailing" secondItem="44x-B4-2H1" secondAttribute="trailing" constant="8" id="647-oT-M65"/>
+                <constraint firstAttribute="bottom" secondItem="wPj-VD-eFb" secondAttribute="bottom" constant="8" id="I9B-Ij-z3o"/>
+                <constraint firstItem="wPj-VD-eFb" firstAttribute="leading" secondItem="Hgq-6r-2BY" secondAttribute="trailing" constant="8" id="IQe-G5-yBz"/>
+                <constraint firstItem="44x-B4-2H1" firstAttribute="leading" secondItem="Hgq-6r-2BY" secondAttribute="trailing" constant="8" id="L4e-BX-Wdp"/>
+                <constraint firstAttribute="bottom" secondItem="Hgq-6r-2BY" secondAttribute="bottom" constant="8" id="f0h-0K-KcW"/>
+                <constraint firstItem="wPj-VD-eFb" firstAttribute="top" secondItem="44x-B4-2H1" secondAttribute="bottom" constant="8" id="gnX-YF-C5v"/>
+                <constraint firstAttribute="trailing" secondItem="wPj-VD-eFb" secondAttribute="trailing" constant="8" id="qrK-bG-PMD"/>
+                <constraint firstItem="44x-B4-2H1" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="sq7-EC-wuo"/>
+                <constraint firstItem="Hgq-6r-2BY" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="wcz-St-YVb"/>
+            </constraints>
+            <connections>
+                <outlet property="imgIcon" destination="Hgq-6r-2BY" id="1Hp-0q-pEk"/>
+                <outlet property="txtSubTitle" destination="wPj-VD-eFb" id="gqD-rR-lv5"/>
+                <outlet property="txtTitle" destination="44x-B4-2H1" id="QXk-Wo-LBx"/>
+            </connections>
+            <point key="canvasLocation" x="63.5" y="35"/>
+        </customView>
+    </objects>
+</document>

@@ -1,0 +1,39 @@
+{
+	title = "";
+	url = "";
+	menu = (
+		{
+			title = "WebView\U5de5\U5177";
+			url = "";
+			menu = (
+				{
+					title = WKWebView;
+					url = "push://TG_Develop_Tools_iOS.UIViewController";
+					"New item" = "";
+				},
+				{
+					title = asdasd;
+					url = "";
+					"New item" = "";
+				},
+			);
+		},
+		{
+			title = "\U7f51\U7edc\U5de5\U5177";
+			url = "";
+			menu = (
+				{
+					title = asdasd;
+					url = "";
+					"New item" = "";
+				},
+				{
+					title = asdasd;
+					url = "";
+					"New item" = "";
+				},
+			);
+		},
+	);
+	type = "";
+}

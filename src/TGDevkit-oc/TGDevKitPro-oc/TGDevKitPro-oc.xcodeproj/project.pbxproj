@@ -1,0 +1,1981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		533919542DF934AD009DBB76 /* TGDevKit_oc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533919492DF934AC009DBB76 /* TGDevKit_oc.framework */; };
+		5339195E2DF934AD009DBB76 /* TGDevKit_oc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533919492DF934AC009DBB76 /* TGDevKit_oc.framework */; };
+		5339195F2DF934AD009DBB76 /* TGDevKit_oc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 533919492DF934AC009DBB76 /* TGDevKit_oc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		533919772DF934C0009DBB76 /* TGDevUIKit_oc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5339196C2DF934BF009DBB76 /* TGDevUIKit_oc.framework */; };
+		533919812DF934C0009DBB76 /* TGDevUIKit_oc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5339196C2DF934BF009DBB76 /* TGDevUIKit_oc.framework */; };
+		533919822DF934C0009DBB76 /* TGDevUIKit_oc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5339196C2DF934BF009DBB76 /* TGDevUIKit_oc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		53391B6E2DF97484009DBB76 /* TGCocoaLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53391B632DF97480009DBB76 /* TGCocoaLogger.framework */; };
+		53391B782DF97484009DBB76 /* TGCocoaLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53391B632DF97480009DBB76 /* TGCocoaLogger.framework */; };
+		53391B792DF97484009DBB76 /* TGCocoaLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53391B632DF97480009DBB76 /* TGCocoaLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		533921FD2DF9826A009DBB76 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 533921FB2DF9826A009DBB76 /* Localizable.strings */; };
+		533922062DF98310009DBB76 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533921F92DF9824E009DBB76 /* Media.xcassets */; };
+		533922072DF98312009DBB76 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 533921FB2DF9826A009DBB76 /* Localizable.strings */; };
+		5339220A2DF98458009DBB76 /* TGDevKitProBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 533922022DF982E8009DBB76 /* TGDevKitProBundle.bundle */; };
+		5377C6B92DFAD939004913ED /* FMDB in Frameworks */ = {isa = PBXBuildFile; productRef = 5377C6B82DFAD939004913ED /* FMDB */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533919032DF933AF009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533918E62DF933A2009DBB76;
+			remoteInfo = "TGDevKitPro-oc";
+		};
+		5339190D2DF933AF009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533918E62DF933A2009DBB76;
+			remoteInfo = "TGDevKitPro-oc";
+		};
+		533919552DF934AD009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533919482DF934AC009DBB76;
+			remoteInfo = "TGDevKit-oc";
+		};
+		533919572DF934AD009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533918E62DF933A2009DBB76;
+			remoteInfo = "TGDevKitPro-oc";
+		};
+		5339195C2DF934AD009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533919482DF934AC009DBB76;
+			remoteInfo = "TGDevKit-oc";
+		};
+		533919782DF934C0009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5339196B2DF934BF009DBB76;
+			remoteInfo = "TGDevUIKit-oc";
+		};
+		5339197A2DF934C0009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533918E62DF933A2009DBB76;
+			remoteInfo = "TGDevKitPro-oc";
+		};
+		5339197F2DF934C0009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5339196B2DF934BF009DBB76;
+			remoteInfo = "TGDevUIKit-oc";
+		};
+		53391B6F2DF97484009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53391B622DF97480009DBB76;
+			remoteInfo = TGCocoaLogger;
+		};
+		53391B712DF97484009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533918E62DF933A2009DBB76;
+			remoteInfo = "TGDevKitPro-oc";
+		};
+		53391B762DF97484009DBB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533918DF2DF933A2009DBB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53391B622DF97480009DBB76;
+			remoteInfo = TGCocoaLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		533919402DF93439009DBB76 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				533919822DF934C0009DBB76 /* TGDevUIKit_oc.framework in Embed Frameworks */,
+				53391B792DF97484009DBB76 /* TGCocoaLogger.framework in Embed Frameworks */,
+				5339195F2DF934AD009DBB76 /* TGDevKit_oc.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		533918E72DF933A2009DBB76 /* TGDevKitPro-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TGDevKitPro-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533919022DF933AF009DBB76 /* TGDevKitPro-ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TGDevKitPro-ocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5339190C2DF933AF009DBB76 /* TGDevKitPro-ocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TGDevKitPro-ocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533919492DF934AC009DBB76 /* TGDevKit_oc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGDevKit_oc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		533919532DF934AD009DBB76 /* TGDevKit-ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TGDevKit-ocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5339196C2DF934BF009DBB76 /* TGDevUIKit_oc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGDevUIKit_oc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		533919762DF934C0009DBB76 /* TGDevUIKit-ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TGDevUIKit-ocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53391B632DF97480009DBB76 /* TGCocoaLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGCocoaLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53391B6D2DF97484009DBB76 /* TGCocoaLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGCocoaLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		533921F92DF9824E009DBB76 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		533921FC2DF9826A009DBB76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		533922022DF982E8009DBB76 /* TGDevKitProBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGDevKitProBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5377CC542DFC2512004913ED /* Exceptions for "common" folder in "TGDevKitPro-oc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"TGDevUIKit-oc/base/evn/development.xcconfig",
+			);
+			target = 533918E62DF933A2009DBB76 /* TGDevKitPro-oc */;
+		};
+		5377CC552DFC2512004913ED /* Exceptions for "common" folder in "TGDevKit-oc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"TGDevKit-oc/base/src/common/CommonDef.h",
+				"TGDevKit-oc/base/src/common/CommonDef.m",
+				"TGDevKit-oc/base/src/emas/EMASEManager.h",
+				"TGDevKit-oc/base/src/emas/EMASEManager.m",
+				"TGDevKit-oc/base/src/encrypt/EncryptUtil.h",
+				"TGDevKit-oc/base/src/encrypt/EncryptUtil.m",
+				"TGDevKit-oc/base/src/encrypt/NSData+UAESUntil.h",
+				"TGDevKit-oc/base/src/encrypt/NSData+UAESUntil.m",
+				"TGDevKit-oc/base/src/encrypt/NSDate+UAESUntil.h",
+				"TGDevKit-oc/base/src/encrypt/NSDate+UAESUntil.m",
+				"TGDevKit-oc/base/src/encrypt/NSString+SHA256.h",
+				"TGDevKit-oc/base/src/encrypt/NSString+SHA256.m",
+				"TGDevKit-oc/base/src/encrypt/NSString+UAESUntil.h",
+				"TGDevKit-oc/base/src/encrypt/NSString+UAESUntil.m",
+				"TGDevKit-oc/base/src/encrypt/X509Certificate.h",
+				"TGDevKit-oc/base/src/encrypt/X509Certificate.m",
+				"TGDevKit-oc/base/src/EncryptFMDB/Classes/FMEncryptDatabase.h",
+				"TGDevKit-oc/base/src/EncryptFMDB/Classes/FMEncryptDatabase.m",
+				"TGDevKit-oc/base/src/EncryptFMDB/Classes/FMEncryptDatabaseQueue.h",
+				"TGDevKit-oc/base/src/EncryptFMDB/Classes/FMEncryptDatabaseQueue.m",
+				"TGDevKit-oc/base/src/EncryptFMDB/Classes/FMEncryptHelper.h",
+				"TGDevKit-oc/base/src/EncryptFMDB/Classes/FMEncryptHelper.m",
+				"TGDevKit-oc/base/src/EncryptFMDB/EncryptFMDB.podspec",
+				"TGDevKit-oc/base/src/EncryptFMDB/LICENSE",
+				"TGDevKit-oc/base/src/extension/NSData+TG.h",
+				"TGDevKit-oc/base/src/extension/NSData+TG.m",
+				"TGDevKit-oc/base/src/extension/NSDictionary+TG.h",
+				"TGDevKit-oc/base/src/extension/NSDictionary+TG.m",
+				"TGDevKit-oc/base/src/extension/NSObject+TG.h",
+				"TGDevKit-oc/base/src/extension/NSObject+TG.m",
+				"TGDevKit-oc/base/src/extension/NSString+TG.h",
+				"TGDevKit-oc/base/src/extension/NSString+TG.m",
+				"TGDevKit-oc/base/src/extension/NSString+TG/NSString+TGEncrypt.h",
+				"TGDevKit-oc/base/src/extension/NSString+TG/NSString+TGEncrypt.m",
+				"TGDevKit-oc/base/src/extension/NSString+TG/NSString+TGExtension.h",
+				"TGDevKit-oc/base/src/extension/NSString+TG/NSString+TGExtension.m",
+				"TGDevKit-oc/base/src/extension/NSString+TG/NSString+TGRegex.h",
+				"TGDevKit-oc/base/src/extension/NSString+TG/NSString+TGRegex.m",
+				"TGDevKit-oc/base/src/extension/NSString+TGCodec.h",
+				"TGDevKit-oc/base/src/extension/NSString+TGCodec.m",
+				"TGDevKit-oc/base/src/extension/NSString+TGEncrypt.h",
+				"TGDevKit-oc/base/src/extension/NSString+TGEncrypt.m",
+				"TGDevKit-oc/base/src/extension/NSString+TGExtension.h",
+				"TGDevKit-oc/base/src/extension/NSString+TGExtension.m",
+				"TGDevKit-oc/base/src/extension/NSString+TGRegex.h",
+				"TGDevKit-oc/base/src/extension/NSString+TGRegex.m",
+				"TGDevKit-oc/base/src/extension/NSTimer+TG.h",
+				"TGDevKit-oc/base/src/extension/NSTimer+TG.m",
+				"TGDevKit-oc/base/src/extension/TGFoundationExtension.h",
+				"TGDevKit-oc/base/src/LICENSE",
+				"TGDevKit-oc/base/src/macro/TGMacro.h",
+				"TGDevKit-oc/base/src/macro/TGMath.h",
+				"TGDevKit-oc/base/src/net/HttpClinet/UI+HttpClinet/NSObject+HttpClient.h",
+				"TGDevKit-oc/base/src/net/HttpClinet/UI+HttpClinet/NSObject+HttpClient.m",
+				"TGDevKit-oc/base/src/net/HttpClinet/UI+HttpClinet/UIView+HttpClient.h",
+				"TGDevKit-oc/base/src/net/HttpClinet/UI+HttpClinet/UIView+HttpClient.m",
+				"TGDevKit-oc/base/src/net/HttpClinet/UI+HttpClinet/UIViewController+HttpClient.h",
+				"TGDevKit-oc/base/src/net/HttpClinet/UI+HttpClinet/UIViewController+HttpClient.m",
+				"TGDevKit-oc/base/src/TGData.h",
+				"TGDevKit-oc/base/src/TGData.m",
+				"TGDevKit-oc/base/src/TGDictionary.h",
+				"TGDevKit-oc/base/src/TGDictionary.m",
+				"TGDevKit-oc/base/src/TGException.h",
+				"TGDevKit-oc/base/src/TGException.m",
+				"TGDevKit-oc/base/src/TGFileUtil/Class/TGFileUtil.h",
+				"TGDevKit-oc/base/src/TGFileUtil/Class/TGFileUtil.m",
+				"TGDevKit-oc/base/src/TGFoundation.h",
+				"TGDevKit-oc/base/src/TGHttp.h",
+				"TGDevKit-oc/base/src/TGHttp.m",
+				"TGDevKit-oc/base/src/TGMacros.h",
+				"TGDevKit-oc/base/src/TGMath.h",
+				"TGDevKit-oc/base/src/TGObject.h",
+				"TGDevKit-oc/base/src/TGObject.m",
+				"TGDevKit-oc/base/src/TGString.h",
+				"TGDevKit-oc/base/src/TGString.m",
+				"TGDevKit-oc/base/src/TGTimer.h",
+				"TGDevKit-oc/base/src/TGTimer.m",
+				"TGDevKit-oc/base/src/utils/ImageToBase64.h",
+				"TGDevKit-oc/base/src/utils/ImageToBase64.m",
+				"TGDevKit-oc/TGDevKit_oc.docc",
+				"TGDevKit-oc/TGDevKit_oc.h",
+			);
+			publicHeaders = (
+				"TGDevKit-oc/base/src/encrypt/EncryptUtil.h",
+				"TGDevKit-oc/TGDevKit_oc.h",
+			);
+			target = 533919482DF934AC009DBB76 /* TGDevKit-oc */;
+		};
+		5377CC562DFC2512004913ED /* Exceptions for "common" folder in "TGDevKit-ocTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"TGDevKit-ocTests/TGDevKit_ocTests.m",
+			);
+			target = 533919522DF934AD009DBB76 /* TGDevKit-ocTests */;
+		};
+		5377CC572DFC2512004913ED /* Exceptions for "common" folder in "TGDevUIKit-oc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: TGDevUIKit-oc/osx/resources/Encrypt.storyboard",
+				"TGDevUIKit-oc/base/evn/bate.xcconfig",
+				"TGDevUIKit-oc/base/evn/development.xcconfig",
+				"TGDevUIKit-oc/base/evn/product.xcconfig",
+				"TGDevUIKit-oc/base/src/BaseButton.h",
+				"TGDevUIKit-oc/base/src/BaseButton.m",
+				"TGDevUIKit-oc/base/src/BaseImageView.h",
+				"TGDevUIKit-oc/base/src/BaseImageView.m",
+				"TGDevUIKit-oc/base/src/BaseNSViewController.h",
+				"TGDevUIKit-oc/base/src/BaseNSViewController.m",
+				"TGDevUIKit-oc/base/src/BaseSplitViewController.h",
+				"TGDevUIKit-oc/base/src/BaseSplitViewController.m",
+				"TGDevUIKit-oc/base/src/BaseStackView.h",
+				"TGDevUIKit-oc/base/src/BaseStackView.m",
+				"TGDevUIKit-oc/base/src/BaseTextField.h",
+				"TGDevUIKit-oc/base/src/BaseTextField.m",
+				"TGDevUIKit-oc/base/src/BaseUI.h",
+				"TGDevUIKit-oc/base/src/BaseUIKit.h",
+				"TGDevUIKit-oc/base/src/BaseView_副本.h",
+				"TGDevUIKit-oc/base/src/BaseView_副本.m",
+				"TGDevUIKit-oc/base/src/BaseView.h",
+				"TGDevUIKit-oc/base/src/BaseView.m",
+				"TGDevUIKit-oc/base/src/BaseViewController.h",
+				"TGDevUIKit-oc/base/src/BaseViewController.m",
+				"TGDevUIKit-oc/base/src/BaseWindowController.h",
+				"TGDevUIKit-oc/base/src/BaseWindowController.m",
+				"TGDevUIKit-oc/base/src/extension/net/http/NSObject+HttpClient.h",
+				"TGDevUIKit-oc/base/src/extension/net/http/NSObject+HttpClient.m",
+				"TGDevUIKit-oc/base/src/extension/net/http/UIView+HttpClient.h",
+				"TGDevUIKit-oc/base/src/extension/net/http/UIView+HttpClient.m",
+				"TGDevUIKit-oc/base/src/extension/net/http/UIViewController+HttpClient.h",
+				"TGDevUIKit-oc/base/src/extension/net/http/UIViewController+HttpClient.m",
+				"TGDevUIKit-oc/base/src/ImageToBase64/HtmlImageToBase64.h",
+				"TGDevUIKit-oc/base/src/ImageToBase64/HtmlImageToBase64.m",
+				"TGDevUIKit-oc/base/src/ImageToBase64/HtmlZ.h",
+				"TGDevUIKit-oc/base/src/ImageToBase64/HtmlZ.m",
+				"TGDevUIKit-oc/base/src/ImageToBase64/ImageToBase64.h",
+				"TGDevUIKit-oc/base/src/ImageToBase64/ImageToBase64.m",
+				"TGDevUIKit-oc/ios/src/AlertController.h",
+				"TGDevUIKit-oc/ios/src/AlertController.m",
+				"TGDevUIKit-oc/ios/src/AlertViewController.h",
+				"TGDevUIKit-oc/ios/src/AlertViewController.m",
+				"TGDevUIKit-oc/ios/src/BaseNavigationController.h",
+				"TGDevUIKit-oc/ios/src/BaseNavigationController.m",
+				"TGDevUIKit-oc/ios/src/CheckBox/TGCheckBox.h",
+				"TGDevUIKit-oc/ios/src/CheckBox/TGCheckBox.m",
+				"TGDevUIKit-oc/ios/src/DataSourceKit/DataSourceTableViewController.h",
+				"TGDevUIKit-oc/ios/src/DataSourceKit/DataSourceTableViewController.m",
+				"TGDevUIKit-oc/ios/src/DataSourceKit/DataSourceViewController.h",
+				"TGDevUIKit-oc/ios/src/DataSourceKit/DataSourceViewController.m",
+				"TGDevUIKit-oc/ios/src/DatePicker.h",
+				"TGDevUIKit-oc/ios/src/DatePicker.m",
+				"TGDevUIKit-oc/ios/src/extension/TGKitExtension.h",
+				"TGDevUIKit-oc/ios/src/extension/UIAlertController+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIAlertController+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UIApplication+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIApplication+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UIButton+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIButton+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UIColor+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIColor+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UIDevice+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIDevice+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UIimage+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIimage+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UIImageView+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIImageView+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UIResponder+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIResponder+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UIScrollView+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIScrollView+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UITableViewController+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UITableViewController+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UITextField+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UITextField+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UIView+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIView+TG.m",
+				"TGDevUIKit-oc/ios/src/extension/UIViewController+TG.h",
+				"TGDevUIKit-oc/ios/src/extension/UIViewController+TG.m",
+				"TGDevUIKit-oc/ios/src/PickerView.h",
+				"TGDevUIKit-oc/ios/src/PickerView.m",
+				"TGDevUIKit-oc/ios/src/Popview/TGDatePickerView.h",
+				"TGDevUIKit-oc/ios/src/Popview/TGDatePickerView.m",
+				"TGDevUIKit-oc/ios/src/Popview/TGDorpMenu.h",
+				"TGDevUIKit-oc/ios/src/Popview/TGDorpMenu.m",
+				"TGDevUIKit-oc/ios/src/Popview/TGHudView.h",
+				"TGDevUIKit-oc/ios/src/Popview/TGHudView.m",
+				"TGDevUIKit-oc/ios/src/Popview/TGPopView.h",
+				"TGDevUIKit-oc/ios/src/Popview/TGPopView.m",
+				"TGDevUIKit-oc/ios/src/Popview/TGSheetView.h",
+				"TGDevUIKit-oc/ios/src/Popview/TGSheetView.m",
+				"TGDevUIKit-oc/ios/src/StringUtilityView/StringUtilityViewController.h",
+				"TGDevUIKit-oc/ios/src/StringUtilityView/StringUtilityViewController.m",
+				"TGDevUIKit-oc/ios/src/TGAlertController.h",
+				"TGDevUIKit-oc/ios/src/TGAlertController.m",
+				"TGDevUIKit-oc/ios/src/TGAppCenter.h",
+				"TGDevUIKit-oc/ios/src/TGAppCenter.m",
+				"TGDevUIKit-oc/ios/src/TGApplication.h",
+				"TGDevUIKit-oc/ios/src/TGApplication.m",
+				"TGDevUIKit-oc/ios/src/TGButton.h",
+				"TGDevUIKit-oc/ios/src/TGButton.m",
+				"TGDevUIKit-oc/ios/src/TGCheckBox.h",
+				"TGDevUIKit-oc/ios/src/TGCheckBox.m",
+				"TGDevUIKit-oc/ios/src/TGDevice.h",
+				"TGDevUIKit-oc/ios/src/TGDevice.m",
+				"TGDevUIKit-oc/ios/src/TGImage.h",
+				"TGDevUIKit-oc/ios/src/TGImage.m",
+				"TGDevUIKit-oc/ios/src/TGImageView.h",
+				"TGDevUIKit-oc/ios/src/TGImageView.m",
+				"TGDevUIKit-oc/ios/src/TGKit-prefix.pch",
+				"TGDevUIKit-oc/ios/src/TGKitPrefix.h",
+				"TGDevUIKit-oc/ios/src/TGNavigationBar.h",
+				"TGDevUIKit-oc/ios/src/TGNavigationBar.m",
+				"TGDevUIKit-oc/ios/src/TGNavigationController_副本.h",
+				"TGDevUIKit-oc/ios/src/TGNavigationController_副本.m",
+				"TGDevUIKit-oc/ios/src/TGNavigationController.h",
+				"TGDevUIKit-oc/ios/src/TGNavigationController.m",
+				"TGDevUIKit-oc/ios/src/TGResponder.h",
+				"TGDevUIKit-oc/ios/src/TGResponder.m",
+				"TGDevUIKit-oc/ios/src/TGScrollView.h",
+				"TGDevUIKit-oc/ios/src/TGScrollView.m",
+				"TGDevUIKit-oc/ios/src/TGTabBar.h",
+				"TGDevUIKit-oc/ios/src/TGTabBar.m",
+				"TGDevUIKit-oc/ios/src/TGTabBarController.h",
+				"TGDevUIKit-oc/ios/src/TGTabBarController.m",
+				"TGDevUIKit-oc/ios/src/TGTableView.h",
+				"TGDevUIKit-oc/ios/src/TGTableView.m",
+				"TGDevUIKit-oc/ios/src/TGTableViewCell.h",
+				"TGDevUIKit-oc/ios/src/TGTableViewCell.m",
+				"TGDevUIKit-oc/ios/src/TGTableViewController.h",
+				"TGDevUIKit-oc/ios/src/TGTableViewController.m",
+				"TGDevUIKit-oc/ios/src/TGTextField_副本.h",
+				"TGDevUIKit-oc/ios/src/TGTextField_副本.m",
+				"TGDevUIKit-oc/ios/src/TGTextField.h",
+				"TGDevUIKit-oc/ios/src/TGTextField.m",
+				"TGDevUIKit-oc/ios/src/TGUIKit_ios.h",
+				"TGDevUIKit-oc/ios/src/TGView.h",
+				"TGDevUIKit-oc/ios/src/TGView.m",
+				"TGDevUIKit-oc/ios/src/TGViewController.h",
+				"TGDevUIKit-oc/ios/src/TGViewController.m",
+				"TGDevUIKit-oc/ios/src/UIViewController+TG.h",
+				"TGDevUIKit-oc/ios/src/UIViewController+TG.m",
+				"TGDevUIKit-oc/osx/resources/realm.storyboard",
+				"TGDevUIKit-oc/osx/resources/RegexTool.storyboard",
+				"TGDevUIKit-oc/osx/src/APPUIKit/APPUIKit.h",
+				"TGDevUIKit-oc/osx/src/APPUIKit/MenuTableCellView.h",
+				"TGDevUIKit-oc/osx/src/APPUIKit/MenuTableCellView.m",
+				"TGDevUIKit-oc/osx/src/APPUIKit/MenuTableCellView.xib",
+				"TGDevUIKit-oc/osx/src/APPUIKit/MenuTableRowView.h",
+				"TGDevUIKit-oc/osx/src/APPUIKit/MenuTableRowView.m",
+				"TGDevUIKit-oc/osx/src/APPUIKit/MenuTableViewController.h",
+				"TGDevUIKit-oc/osx/src/APPUIKit/MenuTableViewController.m",
+				"TGDevUIKit-oc/osx/src/encrypt/Base64Controller.h",
+				"TGDevUIKit-oc/osx/src/encrypt/Base64Controller.m",
+				"TGDevUIKit-oc/osx/src/encrypt/EncryptController.h",
+				"TGDevUIKit-oc/osx/src/encrypt/EncryptController.m",
+				"TGDevUIKit-oc/osx/src/encrypt/EncryptToolController.h",
+				"TGDevUIKit-oc/osx/src/encrypt/EncryptToolController.m",
+				"TGDevUIKit-oc/osx/src/encrypt/EncryptWindowController.h",
+				"TGDevUIKit-oc/osx/src/encrypt/EncryptWindowController.m",
+				"TGDevUIKit-oc/osx/src/encrypt/Md5Controller.h",
+				"TGDevUIKit-oc/osx/src/encrypt/Md5Controller.m",
+				"TGDevUIKit-oc/osx/src/encrypt/RSAController.h",
+				"TGDevUIKit-oc/osx/src/encrypt/RSAController.m",
+				"TGDevUIKit-oc/osx/src/extension/NSViewController+Base.h",
+				"TGDevUIKit-oc/osx/src/extension/NSViewController+Base.m",
+				"TGDevUIKit-oc/osx/src/MacOSAPPMainWindows.h",
+				"TGDevUIKit-oc/osx/src/MacOSAPPMainWindows.m",
+				"TGDevUIKit-oc/osx/src/MainMenuViewController.h",
+				"TGDevUIKit-oc/osx/src/MainMenuViewController.m",
+				"TGDevUIKit-oc/osx/src/MainSplitViewController.h",
+				"TGDevUIKit-oc/osx/src/MainSplitViewController.m",
+				"TGDevUIKit-oc/osx/src/RegexTool/RegexToolViewController.h",
+				"TGDevUIKit-oc/osx/src/RegexTool/RegexToolViewController.m",
+				"TGDevUIKit-oc/osx/src/RegexTool/RegexToolViewController.xib",
+				"TGDevUIKit-oc/osx/src/TGDevToolsMain.storyboard",
+				"TGDevUIKit-oc/osx/src/TGDragDropView.h",
+				"TGDevUIKit-oc/osx/src/TGDragDropView.m",
+				"TGDevUIKit-oc/osx/src/TGimage.h",
+				"TGDevUIKit-oc/osx/src/TGimage.m",
+				"TGDevUIKit-oc/TGDevUIKit_oc.docc",
+				"TGDevUIKit-oc/TGDevUIKit_oc.h",
+				"TGDevUIKit-oc/TGDevUIKitPrefixHeader.pch",
+			);
+			publicHeaders = (
+				"TGDevUIKit-oc/TGDevUIKit_oc.h",
+			);
+			target = 5339196B2DF934BF009DBB76 /* TGDevUIKit-oc */;
+		};
+		5377CC582DFC2512004913ED /* Exceptions for "common" folder in "TGDevUIKit-ocTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"TGDevUIKit-ocTests/TGDevUIKit_ocTests.m",
+			);
+			target = 533919752DF934C0009DBB76 /* TGDevUIKit-ocTests */;
+		};
+		5377CD582DFC2519004913ED /* Exceptions for "products" folder in "TGDevKitPro-oc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: TGDevKitPro-oc/ios/resources/LaunchScreen.storyboard",
+				"/Localized: TGDevKitPro-oc/ios/resources/Main.storyboard",
+				"TGDevKitPro-oc/app/src/PPRows/Controller/PPMainViewController.m",
+				"TGDevKitPro-oc/app/src/PPRows/Controller/PPWindowController.m",
+				"TGDevKitPro-oc/app/src/PPRows/Model/PPMainModel.m",
+				"TGDevKitPro-oc/app/src/PPRows/PPRowsMain.storyboard",
+				"TGDevKitPro-oc/app/src/PPRows/Utils/Categories/NSAttributedString+PPRows.m",
+				"TGDevKitPro-oc/app/src/PPRows/Utils/Categories/NSColor+PPRows.m",
+				"TGDevKitPro-oc/app/src/PPRows/Utils/Categories/NSView+PPRows.m",
+				"TGDevKitPro-oc/app/src/PPRows/Utils/PPRowsEngine.m",
+				"TGDevKitPro-oc/app/src/PPRows/View/PPDragDropView.m",
+				"TGDevKitPro-oc/app/src/PPRows/View/PPSettingView.m",
+				"TGDevKitPro-oc/app/src/PPRows/View/PPTableCellView.m",
+				"TGDevKitPro-oc/Assets.xcassets",
+				"TGDevKitPro-oc/ios/src/3dmodel/filament/FILModelView.mm",
+				"TGDevKitPro-oc/ios/src/3dmodel/filament/FILViewController.mm",
+				"TGDevKitPro-oc/ios/src/AppDelegate.m",
+				"TGDevKitPro-oc/ios/src/Cache/CacheCenter.m",
+				"TGDevKitPro-oc/ios/src/Cache/IMSessionDaoScheme.m",
+				"TGDevKitPro-oc/ios/src/Cache/SQL/DBConfig.m",
+				"TGDevKitPro-oc/ios/src/Cache/SQL/TGSQLiteHelper.m",
+				"TGDevKitPro-oc/ios/src/DevelopTools/DevelopToolsMainMenuTController.m",
+				"TGDevKitPro-oc/ios/src/EncryptionTool/EncryptionTool.storyboard",
+				"TGDevKitPro-oc/ios/src/EncryptionTool/EncryptionToolAESViewController.m",
+				"TGDevKitPro-oc/ios/src/EncryptionTool/EncryptionToolRSAViewController.m",
+				"TGDevKitPro-oc/ios/src/EncryptionTool/EncryptionToolViewController.m",
+				"TGDevKitPro-oc/ios/src/LaunchViewController.m",
+				"TGDevKitPro-oc/ios/src/LaunchViewController.xib",
+				"TGDevKitPro-oc/ios/src/MainApplication.m",
+				"TGDevKitPro-oc/ios/src/MainViewController.m",
+				"TGDevKitPro-oc/ios/src/SceneDelegate.m",
+				"TGDevKitPro-oc/ios/src/SDKGroup/ScanKitDemo/HW/CameraBitmapViewController.m",
+				"TGDevKitPro-oc/ios/src/SDKGroup/ScanKitDemo/HW/HmsBitMapBuildViewController.m",
+				"TGDevKitPro-oc/ios/src/SDKGroup/ScanKitDemo/ScanKitFrameWorkViewController.m",
+				"TGDevKitPro-oc/ios/src/SDKGroup/ScanKitDemo/ScanKitFrameWorkViewController.xib",
+				"TGDevKitPro-oc/ios/src/SDKGroup/SDImageDemo/SDImageDemoViewController.m",
+				"TGDevKitPro-oc/ios/src/SDKGroup/SDImageDemo/SDImageDemoViewController.xib",
+				"TGDevKitPro-oc/ios/src/SDKGroup/SDKGroupViewController.m",
+				"TGDevKitPro-oc/ios/src/SocialFunction/SocialFunction.storyboard",
+				"TGDevKitPro-oc/ios/src/SocialFunction/SocialFunctionViewController.m",
+				"TGDevKitPro-oc/ios/src/SocialFunction/WechatTest/WechatTestViewController.m",
+				"TGDevKitPro-oc/ios/src/SocialFunction/WechatTest/WechatTestViewController.xib",
+				"TGDevKitPro-oc/ios/src/TestMenu/TestDevMenuTableViewCell.m",
+				"TGDevKitPro-oc/ios/src/TestMenu/TestDevMenuTableViewController.m",
+				"TGDevKitPro-oc/ios/src/UIKit/BaseImageView.m",
+				"TGDevKitPro-oc/ios/src/UIKit/BaseViewController.m",
+				"TGDevKitPro-oc/ios/src/UIKit/DataSourceTableViewController.m",
+				"TGDevKitPro-oc/ios/src/UIKit/DataSourceViewController.m",
+				"TGDevKitPro-oc/ios/src/UIKit/MenuItemTableViewCell.m",
+				"TGDevKitPro-oc/ios/src/UIKit/MenuItemTableViewCell.xib",
+				"TGDevKitPro-oc/ios/src/UIKit/MenuPageCollectionViewCell.m",
+				"TGDevKitPro-oc/ios/src/UIKit/MenuPageCollectionViewCell.xib",
+				"TGDevKitPro-oc/ios/src/UIKit/MenuPageCollectionViewController.m",
+				"TGDevKitPro-oc/ios/src/UIKit/MenuPageTableViewCell.m",
+				"TGDevKitPro-oc/ios/src/UIKit/MenuPageTableViewCell.xib",
+				"TGDevKitPro-oc/ios/src/UIKit/MenuPageTableViewController.m",
+				"TGDevKitPro-oc/ios/src/UIKit/MenuPageViewController.m",
+				"TGDevKitPro-oc/ios/src/UIKit/TGBundleUtil.m",
+				"TGDevKitPro-oc/ios/src/UIKit/TGDevelopTextField.m",
+				"TGDevKitPro-oc/ios/src/UIKit/UIButton+TG.m",
+				"TGDevKitPro-oc/ios/src/UIKit/UIViewController+Alert.m",
+				"TGDevKitPro-oc/ios/src/Utility/AppUtility.m",
+				"TGDevKitPro-oc/ios/src/ViewController.m",
+				"TGDevKitPro-oc/ios/src/WebDebug/APPJSCallBackModel.m",
+				"TGDevKitPro-oc/ios/src/WebDebug/JSOpenURLModel.m",
+				"TGDevKitPro-oc/ios/src/WebDebug/JSShareModel.m",
+				"TGDevKitPro-oc/ios/src/WebDebug/LeakAvoider.m",
+				"TGDevKitPro-oc/ios/src/WebDebug/WebDebug.storyboard",
+				"TGDevKitPro-oc/ios/src/WebDebug/WebDebugSettingViewController.m",
+				"TGDevKitPro-oc/ios/src/WebDebug/WebDebugViewController.m",
+				"TGDevKitPro-oc/ios/src/WebDebug/WebDebugViewController.xib",
+				"TGDevKitPro-oc/ios/src/WebDebug/WebDevelopToolController.m",
+				"TGDevKitPro-oc/main.m",
+			);
+			target = 533918E62DF933A2009DBB76 /* TGDevKitPro-oc */;
+		};
+		5377CD592DFC2519004913ED /* Exceptions for "products" folder in "TGDevKitPro-ocTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"TGDevKitPro-ocTests/TGDevKitPro_ocTests.m",
+			);
+			target = 533919012DF933AF009DBB76 /* TGDevKitPro-ocTests */;
+		};
+		5377CD5A2DFC2519004913ED /* Exceptions for "products" folder in "TGDevKitProBundle" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: TGDevKitPro-oc/ios/resources/Main.storyboard",
+			);
+			target = 533922012DF982E8009DBB76 /* TGDevKitProBundle */;
+		};
+		5377CD5B2DFC2519004913ED /* Exceptions for "products" folder in "TGDevKitPro-ocUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"TGDevKitPro-ocUITests/TGDevKitPro_ocUITests.m",
+				"TGDevKitPro-ocUITests/TGDevKitPro_ocUITestsLaunchTests.m",
+			);
+			target = 5339190B2DF933AF009DBB76 /* TGDevKitPro-ocUITests */;
+		};
+		5377CD642DFC251C004913ED /* Exceptions for "common" folder in "TGCocoaLogger" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TGCocoaLogger/TGCocoaLogger.docc,
+				TGCocoaLogger/TGCocoaLogger.h,
+			);
+			publicHeaders = (
+				TGCocoaLogger/TGCocoaLogger.h,
+			);
+			target = 53391B622DF97480009DBB76 /* TGCocoaLogger */;
+		};
+		5377CD652DFC251C004913ED /* Exceptions for "common" folder in "TGCocoaLoggerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TGCocoaLoggerTests/TGCocoaLoggerTests.m,
+			);
+			target = 53391B6C2DF97484009DBB76 /* TGCocoaLoggerTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5377C9FD2DFC2506004913ED /* common */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5377CC542DFC2512004913ED /* Exceptions for "common" folder in "TGDevKitPro-oc" target */,
+				5377CC552DFC2512004913ED /* Exceptions for "common" folder in "TGDevKit-oc" target */,
+				5377CC562DFC2512004913ED /* Exceptions for "common" folder in "TGDevKit-ocTests" target */,
+				5377CC572DFC2512004913ED /* Exceptions for "common" folder in "TGDevUIKit-oc" target */,
+				5377CC582DFC2512004913ED /* Exceptions for "common" folder in "TGDevUIKit-ocTests" target */,
+				5377CD642DFC251C004913ED /* Exceptions for "common" folder in "TGCocoaLogger" target */,
+				5377CD652DFC251C004913ED /* Exceptions for "common" folder in "TGCocoaLoggerTests" target */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		5377C9FE2DFC2506004913ED /* features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = features;
+			sourceTree = "<group>";
+		};
+		5377C9FF2DFC2506004913ED /* products */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5377CD582DFC2519004913ED /* Exceptions for "products" folder in "TGDevKitPro-oc" target */,
+				5377CD592DFC2519004913ED /* Exceptions for "products" folder in "TGDevKitPro-ocTests" target */,
+				5377CD5A2DFC2519004913ED /* Exceptions for "products" folder in "TGDevKitProBundle" target */,
+				5377CD5B2DFC2519004913ED /* Exceptions for "products" folder in "TGDevKitPro-ocUITests" target */,
+			);
+			path = products;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533918E42DF933A2009DBB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533919812DF934C0009DBB76 /* TGDevUIKit_oc.framework in Frameworks */,
+				53391B782DF97484009DBB76 /* TGCocoaLogger.framework in Frameworks */,
+				5339195E2DF934AD009DBB76 /* TGDevKit_oc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533918FF2DF933AF009DBB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919092DF933AF009DBB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919462DF934AC009DBB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5377C6B92DFAD939004913ED /* FMDB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919502DF934AD009DBB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533919542DF934AD009DBB76 /* TGDevKit_oc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919692DF934BF009DBB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919732DF934C0009DBB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533919772DF934C0009DBB76 /* TGDevUIKit_oc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53391B602DF97480009DBB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53391B6A2DF97484009DBB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53391B6E2DF97484009DBB76 /* TGCocoaLogger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533921FF2DF982E8009DBB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533918DE2DF933A2009DBB76 = {
+			isa = PBXGroup;
+			children = (
+				5377C9FD2DFC2506004913ED /* common */,
+				5377C9FE2DFC2506004913ED /* features */,
+				5377C9FF2DFC2506004913ED /* products */,
+				533921F82DF98221009DBB76 /* Resources */,
+				533918E82DF933A2009DBB76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		533918E82DF933A2009DBB76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533918E72DF933A2009DBB76 /* TGDevKitPro-oc.app */,
+				533919022DF933AF009DBB76 /* TGDevKitPro-ocTests.xctest */,
+				5339190C2DF933AF009DBB76 /* TGDevKitPro-ocUITests.xctest */,
+				533919492DF934AC009DBB76 /* TGDevKit_oc.framework */,
+				533919532DF934AD009DBB76 /* TGDevKit-ocTests.xctest */,
+				5339196C2DF934BF009DBB76 /* TGDevUIKit_oc.framework */,
+				533919762DF934C0009DBB76 /* TGDevUIKit-ocTests.xctest */,
+				53391B632DF97480009DBB76 /* TGCocoaLogger.framework */,
+				53391B6D2DF97484009DBB76 /* TGCocoaLoggerTests.xctest */,
+				533922022DF982E8009DBB76 /* TGDevKitProBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533921F82DF98221009DBB76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				533921F92DF9824E009DBB76 /* Media.xcassets */,
+				533921FB2DF9826A009DBB76 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		533919442DF934AC009DBB76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919672DF934BF009DBB76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53391B5E2DF97480009DBB76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		533918E62DF933A2009DBB76 /* TGDevKitPro-oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533919152DF933AF009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKitPro-oc" */;
+			buildPhases = (
+				533918E32DF933A2009DBB76 /* Sources */,
+				533918E42DF933A2009DBB76 /* Frameworks */,
+				533918E52DF933A2009DBB76 /* Resources */,
+				533919402DF93439009DBB76 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5339195D2DF934AD009DBB76 /* PBXTargetDependency */,
+				533919802DF934C0009DBB76 /* PBXTargetDependency */,
+				53391B772DF97484009DBB76 /* PBXTargetDependency */,
+			);
+			name = "TGDevKitPro-oc";
+			packageProductDependencies = (
+			);
+			productName = "TGDevKitPro-oc";
+			productReference = 533918E72DF933A2009DBB76 /* TGDevKitPro-oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		533919012DF933AF009DBB76 /* TGDevKitPro-ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5339191A2DF933AF009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKitPro-ocTests" */;
+			buildPhases = (
+				533918FE2DF933AF009DBB76 /* Sources */,
+				533918FF2DF933AF009DBB76 /* Frameworks */,
+				533919002DF933AF009DBB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533919042DF933AF009DBB76 /* PBXTargetDependency */,
+			);
+			name = "TGDevKitPro-ocTests";
+			packageProductDependencies = (
+			);
+			productName = "TGDevKitPro-ocTests";
+			productReference = 533919022DF933AF009DBB76 /* TGDevKitPro-ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5339190B2DF933AF009DBB76 /* TGDevKitPro-ocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5339191D2DF933AF009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKitPro-ocUITests" */;
+			buildPhases = (
+				533919082DF933AF009DBB76 /* Sources */,
+				533919092DF933AF009DBB76 /* Frameworks */,
+				5339190A2DF933AF009DBB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5339190E2DF933AF009DBB76 /* PBXTargetDependency */,
+			);
+			name = "TGDevKitPro-ocUITests";
+			packageProductDependencies = (
+			);
+			productName = "TGDevKitPro-ocUITests";
+			productReference = 5339190C2DF933AF009DBB76 /* TGDevKitPro-ocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		533919482DF934AC009DBB76 /* TGDevKit-oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533919602DF934AD009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKit-oc" */;
+			buildPhases = (
+				533919442DF934AC009DBB76 /* Headers */,
+				533919452DF934AC009DBB76 /* Sources */,
+				533919462DF934AC009DBB76 /* Frameworks */,
+				533919472DF934AC009DBB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TGDevKit-oc";
+			packageProductDependencies = (
+				5377C6B82DFAD939004913ED /* FMDB */,
+			);
+			productName = "TGDevKit-oc";
+			productReference = 533919492DF934AC009DBB76 /* TGDevKit_oc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		533919522DF934AD009DBB76 /* TGDevKit-ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533919642DF934AD009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKit-ocTests" */;
+			buildPhases = (
+				5339194F2DF934AD009DBB76 /* Sources */,
+				533919502DF934AD009DBB76 /* Frameworks */,
+				533919512DF934AD009DBB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533919562DF934AD009DBB76 /* PBXTargetDependency */,
+				533919582DF934AD009DBB76 /* PBXTargetDependency */,
+			);
+			name = "TGDevKit-ocTests";
+			packageProductDependencies = (
+			);
+			productName = "TGDevKit-ocTests";
+			productReference = 533919532DF934AD009DBB76 /* TGDevKit-ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5339196B2DF934BF009DBB76 /* TGDevUIKit-oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533919832DF934C0009DBB76 /* Build configuration list for PBXNativeTarget "TGDevUIKit-oc" */;
+			buildPhases = (
+				533919672DF934BF009DBB76 /* Headers */,
+				533919682DF934BF009DBB76 /* Sources */,
+				533919692DF934BF009DBB76 /* Frameworks */,
+				5339196A2DF934BF009DBB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TGDevUIKit-oc";
+			packageProductDependencies = (
+			);
+			productName = "TGDevUIKit-oc";
+			productReference = 5339196C2DF934BF009DBB76 /* TGDevUIKit_oc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		533919752DF934C0009DBB76 /* TGDevUIKit-ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533919872DF934C0009DBB76 /* Build configuration list for PBXNativeTarget "TGDevUIKit-ocTests" */;
+			buildPhases = (
+				533919722DF934C0009DBB76 /* Sources */,
+				533919732DF934C0009DBB76 /* Frameworks */,
+				533919742DF934C0009DBB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533919792DF934C0009DBB76 /* PBXTargetDependency */,
+				5339197B2DF934C0009DBB76 /* PBXTargetDependency */,
+			);
+			name = "TGDevUIKit-ocTests";
+			packageProductDependencies = (
+			);
+			productName = "TGDevUIKit-ocTests";
+			productReference = 533919762DF934C0009DBB76 /* TGDevUIKit-ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53391B622DF97480009DBB76 /* TGCocoaLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53391B7A2DF97484009DBB76 /* Build configuration list for PBXNativeTarget "TGCocoaLogger" */;
+			buildPhases = (
+				53391B5E2DF97480009DBB76 /* Headers */,
+				53391B5F2DF97480009DBB76 /* Sources */,
+				53391B602DF97480009DBB76 /* Frameworks */,
+				53391B612DF97480009DBB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGCocoaLogger;
+			packageProductDependencies = (
+			);
+			productName = TGCocoaLogger;
+			productReference = 53391B632DF97480009DBB76 /* TGCocoaLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53391B6C2DF97484009DBB76 /* TGCocoaLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53391B7E2DF97484009DBB76 /* Build configuration list for PBXNativeTarget "TGCocoaLoggerTests" */;
+			buildPhases = (
+				53391B692DF97484009DBB76 /* Sources */,
+				53391B6A2DF97484009DBB76 /* Frameworks */,
+				53391B6B2DF97484009DBB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53391B702DF97484009DBB76 /* PBXTargetDependency */,
+				53391B722DF97484009DBB76 /* PBXTargetDependency */,
+			);
+			name = TGCocoaLoggerTests;
+			packageProductDependencies = (
+			);
+			productName = TGCocoaLoggerTests;
+			productReference = 53391B6D2DF97484009DBB76 /* TGCocoaLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		533922012DF982E8009DBB76 /* TGDevKitProBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533922032DF982E8009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKitProBundle" */;
+			buildPhases = (
+				533921FE2DF982E8009DBB76 /* Sources */,
+				533921FF2DF982E8009DBB76 /* Frameworks */,
+				533922002DF982E8009DBB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGDevKitProBundle;
+			packageProductDependencies = (
+			);
+			productName = TGDevKitProBundle;
+			productReference = 533922022DF982E8009DBB76 /* TGDevKitProBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533918DF2DF933A2009DBB76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					533918E62DF933A2009DBB76 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					533919012DF933AF009DBB76 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 533918E62DF933A2009DBB76;
+					};
+					5339190B2DF933AF009DBB76 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 533918E62DF933A2009DBB76;
+					};
+					533919482DF934AC009DBB76 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					533919522DF934AD009DBB76 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 533918E62DF933A2009DBB76;
+					};
+					5339196B2DF934BF009DBB76 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					533919752DF934C0009DBB76 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 533918E62DF933A2009DBB76;
+					};
+					53391B622DF97480009DBB76 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					53391B6C2DF97484009DBB76 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 533918E62DF933A2009DBB76;
+					};
+					533922012DF982E8009DBB76 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 533918E22DF933A2009DBB76 /* Build configuration list for PBXProject "TGDevKitPro-oc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 533918DE2DF933A2009DBB76;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				533920C72DF977E9009DBB76 /* XCRemoteSwiftPackageReference "AFNetworking" */,
+				5377C6B72DFAD939004913ED /* XCRemoteSwiftPackageReference "fmdb" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 533918E82DF933A2009DBB76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533918E62DF933A2009DBB76 /* TGDevKitPro-oc */,
+				533919012DF933AF009DBB76 /* TGDevKitPro-ocTests */,
+				533922012DF982E8009DBB76 /* TGDevKitProBundle */,
+				5339190B2DF933AF009DBB76 /* TGDevKitPro-ocUITests */,
+				533919482DF934AC009DBB76 /* TGDevKit-oc */,
+				533919522DF934AD009DBB76 /* TGDevKit-ocTests */,
+				5339196B2DF934BF009DBB76 /* TGDevUIKit-oc */,
+				533919752DF934C0009DBB76 /* TGDevUIKit-ocTests */,
+				53391B622DF97480009DBB76 /* TGCocoaLogger */,
+				53391B6C2DF97484009DBB76 /* TGCocoaLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533918E52DF933A2009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5339220A2DF98458009DBB76 /* TGDevKitProBundle.bundle in Resources */,
+				533921FD2DF9826A009DBB76 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919002DF933AF009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5339190A2DF933AF009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919472DF934AC009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919512DF934AD009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5339196A2DF934BF009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919742DF934C0009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53391B612DF97480009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53391B6B2DF97484009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533922002DF982E8009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533922062DF98310009DBB76 /* Media.xcassets in Resources */,
+				533922072DF98312009DBB76 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533918E32DF933A2009DBB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533918FE2DF933AF009DBB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919082DF933AF009DBB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919452DF934AC009DBB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5339194F2DF934AD009DBB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919682DF934BF009DBB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533919722DF934C0009DBB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53391B5F2DF97480009DBB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53391B692DF97484009DBB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533921FE2DF982E8009DBB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		533919042DF933AF009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533918E62DF933A2009DBB76 /* TGDevKitPro-oc */;
+			targetProxy = 533919032DF933AF009DBB76 /* PBXContainerItemProxy */;
+		};
+		5339190E2DF933AF009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533918E62DF933A2009DBB76 /* TGDevKitPro-oc */;
+			targetProxy = 5339190D2DF933AF009DBB76 /* PBXContainerItemProxy */;
+		};
+		533919562DF934AD009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533919482DF934AC009DBB76 /* TGDevKit-oc */;
+			targetProxy = 533919552DF934AD009DBB76 /* PBXContainerItemProxy */;
+		};
+		533919582DF934AD009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533918E62DF933A2009DBB76 /* TGDevKitPro-oc */;
+			targetProxy = 533919572DF934AD009DBB76 /* PBXContainerItemProxy */;
+		};
+		5339195D2DF934AD009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533919482DF934AC009DBB76 /* TGDevKit-oc */;
+			targetProxy = 5339195C2DF934AD009DBB76 /* PBXContainerItemProxy */;
+		};
+		533919792DF934C0009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5339196B2DF934BF009DBB76 /* TGDevUIKit-oc */;
+			targetProxy = 533919782DF934C0009DBB76 /* PBXContainerItemProxy */;
+		};
+		5339197B2DF934C0009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533918E62DF933A2009DBB76 /* TGDevKitPro-oc */;
+			targetProxy = 5339197A2DF934C0009DBB76 /* PBXContainerItemProxy */;
+		};
+		533919802DF934C0009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5339196B2DF934BF009DBB76 /* TGDevUIKit-oc */;
+			targetProxy = 5339197F2DF934C0009DBB76 /* PBXContainerItemProxy */;
+		};
+		53391B702DF97484009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53391B622DF97480009DBB76 /* TGCocoaLogger */;
+			targetProxy = 53391B6F2DF97484009DBB76 /* PBXContainerItemProxy */;
+		};
+		53391B722DF97484009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533918E62DF933A2009DBB76 /* TGDevKitPro-oc */;
+			targetProxy = 53391B712DF97484009DBB76 /* PBXContainerItemProxy */;
+		};
+		53391B772DF97484009DBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53391B622DF97480009DBB76 /* TGCocoaLogger */;
+			targetProxy = 53391B762DF97484009DBB76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		533921FB2DF9826A009DBB76 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533921FC2DF9826A009DBB76 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		533919162DF933AF009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TGDevKitPro-oc/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.pro.oc.TGDevKitPro-oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		533919172DF933AF009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TGDevKitPro-oc/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.pro.oc.TGDevKitPro-oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		533919182DF933AF009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		533919192DF933AF009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5339191B2DF933AF009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.pro.oc.TGDevKitPro-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGDevKitPro-oc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGDevKitPro-oc";
+			};
+			name = Debug;
+		};
+		5339191C2DF933AF009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.pro.oc.TGDevKitPro-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGDevKitPro-oc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGDevKitPro-oc";
+			};
+			name = Release;
+		};
+		5339191E2DF933AF009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.pro.oc.TGDevKitPro-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TGDevKitPro-oc";
+			};
+			name = Debug;
+		};
+		5339191F2DF933AF009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.pro.oc.TGDevKitPro-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TGDevKitPro-oc";
+			};
+			name = Release;
+		};
+		533919612DF934AD009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.oc.TGDevKit-oc";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		533919622DF934AD009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.oc.TGDevKit-oc";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		533919652DF934AD009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.oc.TGDevKit-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGDevKitPro-oc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGDevKitPro-oc";
+			};
+			name = Debug;
+		};
+		533919662DF934AD009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.oc.TGDevKit-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGDevKitPro-oc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGDevKitPro-oc";
+			};
+			name = Release;
+		};
+		533919842DF934C0009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TGDevUIKit-oc/TGDevUIKitPrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devuikit.oc.TGDevUIKit-oc";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		533919852DF934C0009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TGDevUIKit-oc/TGDevUIKitPrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devuikit.oc.TGDevUIKit-oc";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		533919882DF934C0009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devuikit.oc.TGDevUIKit-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGDevKitPro-oc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGDevKitPro-oc";
+			};
+			name = Debug;
+		};
+		533919892DF934C0009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devuikit.oc.TGDevUIKit-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGDevKitPro-oc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGDevKitPro-oc";
+			};
+			name = Release;
+		};
+		53391B7B2DF97484009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devuikit.-TGCocoaLogger.TGCocoaLogger";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53391B7C2DF97484009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devuikit.-TGCocoaLogger.TGCocoaLogger";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53391B7F2DF97484009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devuikit.-TGCocoaLogger.TGCocoaLoggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGDevKitPro-oc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGDevKitPro-oc";
+			};
+			name = Debug;
+		};
+		53391B802DF97484009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devuikit.-TGCocoaLogger.TGCocoaLoggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGDevKitPro-oc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGDevKitPro-oc";
+			};
+			name = Release;
+		};
+		533922042DF982E8009DBB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devuikit.-TGCocoaLogger.TGDevKitProBundle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		533922052DF982E8009DBB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devuikit.-TGCocoaLogger.TGDevKitProBundle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "driverkit macosx iphoneos iphonesimulator appletvos appletvsimulator xros xrsimulator watchsimulator watchos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533918E22DF933A2009DBB76 /* Build configuration list for PBXProject "TGDevKitPro-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533919182DF933AF009DBB76 /* Debug */,
+				533919192DF933AF009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533919152DF933AF009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKitPro-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533919162DF933AF009DBB76 /* Debug */,
+				533919172DF933AF009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5339191A2DF933AF009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKitPro-ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5339191B2DF933AF009DBB76 /* Debug */,
+				5339191C2DF933AF009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5339191D2DF933AF009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKitPro-ocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5339191E2DF933AF009DBB76 /* Debug */,
+				5339191F2DF933AF009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533919602DF934AD009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKit-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533919612DF934AD009DBB76 /* Debug */,
+				533919622DF934AD009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533919642DF934AD009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKit-ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533919652DF934AD009DBB76 /* Debug */,
+				533919662DF934AD009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533919832DF934C0009DBB76 /* Build configuration list for PBXNativeTarget "TGDevUIKit-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533919842DF934C0009DBB76 /* Debug */,
+				533919852DF934C0009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533919872DF934C0009DBB76 /* Build configuration list for PBXNativeTarget "TGDevUIKit-ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533919882DF934C0009DBB76 /* Debug */,
+				533919892DF934C0009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53391B7A2DF97484009DBB76 /* Build configuration list for PBXNativeTarget "TGCocoaLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53391B7B2DF97484009DBB76 /* Debug */,
+				53391B7C2DF97484009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53391B7E2DF97484009DBB76 /* Build configuration list for PBXNativeTarget "TGCocoaLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53391B7F2DF97484009DBB76 /* Debug */,
+				53391B802DF97484009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533922032DF982E8009DBB76 /* Build configuration list for PBXNativeTarget "TGDevKitProBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533922042DF982E8009DBB76 /* Debug */,
+				533922052DF982E8009DBB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		533920C72DF977E9009DBB76 /* XCRemoteSwiftPackageReference "AFNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AFNetworking/AFNetworking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		5377C6B72DFAD939004913ED /* XCRemoteSwiftPackageReference "fmdb" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ccgus/fmdb";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.12;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5377C6B82DFAD939004913ED /* FMDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5377C6B72DFAD939004913ED /* XCRemoteSwiftPackageReference "fmdb" */;
+			productName = FMDB;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 533918DF2DF933A2009DBB76 /* Project object */;
+}

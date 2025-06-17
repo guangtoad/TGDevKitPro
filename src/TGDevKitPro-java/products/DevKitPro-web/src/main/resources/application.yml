@@ -1,0 +1,36 @@
+# 默认使用配置
+spring:
+  profiles:
+    active: dev
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.121:3306/tgweb?useSSL=false
+    username: toad
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#  # 模板引擎
+#  thymeleaf:
+#    mode: HTML
+#    encoding: utf-8
+#    # 禁用缓存
+#    cache: false
+
+# 用户配置
+user:
+  password:
+    # 密码错误{maxRetryCount}次锁定10分钟
+    maxRetryCount: 5
+
+#mybatis:
+#  # 搜索指定包别名
+#  #        typeAliasesPackage: com.toad.tools.web
+#  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+#  mapperLocations: classpath:mybatis/**/*Mapper.xml
+#  # 加载全局的配置文件
+#  configLocation: classpath:mybatis/mybatis-config.xml
+#    mappers:
+#        package:
+
+

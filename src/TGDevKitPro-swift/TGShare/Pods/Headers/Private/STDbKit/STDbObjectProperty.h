@@ -1,0 +1,1 @@
+../../../STDbKit/STDbKit/Classes/STDbObjectProperty.h

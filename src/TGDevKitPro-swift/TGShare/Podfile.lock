@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.3)
+  - ReactiveObjC (3.1.0)
+  - SDAutoLayout (2.2.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - STDbKit (2.3.0)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - ReactiveObjC
+  - SDAutoLayout
+  - SDWebImage
+  - STDbKit
+  - Toast
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - SDAutoLayout
+    - SDWebImage
+    - STDbKit
+    - Toast
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  STDbKit: 100e19b79c19eedab9477cee517da45be2eafac9
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: e5e3feb9a5ea7c32f0a9961f13858bb1eec700e5
+
+COCOAPODS: 1.5.0

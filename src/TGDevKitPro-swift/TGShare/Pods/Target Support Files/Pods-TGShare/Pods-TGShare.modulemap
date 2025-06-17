@@ -1,0 +1,6 @@
+module Pods_TGShare [system] {
+  umbrella header "Pods-TGShare-umbrella.h"
+
+  export *
+  module * { export * }
+}

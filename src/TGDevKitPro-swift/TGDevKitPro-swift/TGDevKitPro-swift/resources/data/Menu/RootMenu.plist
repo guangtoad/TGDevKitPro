@@ -1,0 +1,40 @@
+{
+	title = "";
+	menus = (
+		{
+			title = "\U52a0\U89e3";
+			url = "";
+			icon = "icon_menu_1";
+		},
+		{
+			title = "\U6b63\U5219\U9a8c\U8bc1";
+			url = "";
+			icon = "icon_menu_1";
+		},
+		{
+			title = "\U4e8c\U7ef4\U7801\U751f\U6210";
+			url = "";
+			icon = "icon_menu_1";
+		},
+		{
+			title = "\U529f\U80fd1";
+			url = "";
+			icon = "icon_menu_1";
+		},
+		{
+			title = "\U529f\U80fd1";
+			url = "";
+			icon = "icon_menu_1";
+		},
+		{
+			title = "\U529f\U80fd1";
+			url = "";
+			icon = "icon_menu_1";
+		},
+		{
+			title = "\U529f\U80fd1";
+			url = "";
+			icon = "icon_menu_1";
+		},
+	);
+}

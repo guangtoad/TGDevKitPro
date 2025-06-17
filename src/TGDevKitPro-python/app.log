@@ -1,0 +1,25 @@
+2025-05-30 05:51:33,672 - __main__ - INFO - Starting Cross-Platform Python Application
+2025-05-30 05:51:33,672 - __main__ - INFO - Launching GUI interface
+2025-05-30 05:51:33,672 - src.app - INFO - Starting GUI interface
+2025-05-30 05:51:34,332 - src.app.GUI - INFO - Starting GUI main loop
+2025-05-30 05:54:24,956 - __main__ - INFO - Starting Cross-Platform Python Application
+2025-05-30 05:54:24,957 - __main__ - INFO - Launching GUI interface
+2025-05-30 05:54:24,957 - src.app - INFO - Starting GUI interface
+2025-05-30 05:54:25,167 - src.app.GUI - INFO - Starting GUI main loop
+2025-05-30 07:10:53,129 - __main__ - INFO - Starting Cross-Platform Python Application
+2025-05-30 07:10:53,129 - __main__ - INFO - Launching GUI interface
+2025-05-30 07:10:53,129 - src.app - INFO - Starting GUI interface
+2025-05-30 07:10:54,145 - src.app.GUI - INFO - Starting GUI main loop
+2025-05-30 07:20:22,121 - __main__ - INFO - Starting Cross-Platform Python Application
+2025-05-30 07:20:22,122 - __main__ - INFO - Launching GUI interface
+2025-05-30 07:20:22,122 - src.app - INFO - Starting GUI interface
+2025-05-30 07:20:22,426 - src.app.GUI - INFO - Starting GUI main loop
+2025-05-30 07:28:11,416 - __main__ - INFO - Starting Cross-Platform Python Application
+2025-05-30 07:28:11,416 - __main__ - INFO - Launching GUI interface
+2025-05-30 07:28:11,416 - src.app - INFO - Starting GUI interface
+2025-05-30 07:28:11,609 - src.app.GUI - INFO - Starting GUI main loop
+2025-05-30 07:35:36,878 - __main__ - INFO - Starting Cross-Platform Python Application
+2025-05-30 07:35:36,938 - src.file_compare.BeyondCompareManager - WARNING - Beyond Compare not found
+2025-05-30 07:35:36,938 - __main__ - INFO - Launching GUI interface
+2025-05-30 07:35:36,942 - src.app - INFO - Starting GUI interface
+2025-05-30 07:35:37,543 - src.app.GUI - INFO - Starting GUI main loop

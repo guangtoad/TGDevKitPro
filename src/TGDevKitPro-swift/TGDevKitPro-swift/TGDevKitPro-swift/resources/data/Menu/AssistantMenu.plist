@@ -1,0 +1,277 @@
+{
+	hegit = 0;
+	menu = "";
+	type = "";
+	groups = (
+		{
+			menus = (
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U8f85\U52a9\U529f\U80fd1";
+					url = "";
+					icon = "";
+				},
+			);
+			title = "\U5c0f\U5de5\U5177";
+		},
+		{
+			menus = (
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+			);
+			title = "\U6d4b\U8bd5\U83dc\U5355";
+		},
+		{
+			menus = (
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+			);
+			title = "\U6d4b\U8bd5\U83dc\U5355";
+		},
+		{
+			menus = (
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+			);
+			title = "\U6d4b\U8bd5\U83dc\U5355";
+		},
+		{
+			menus = (
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+			);
+			title = "\U6d4b\U8bd5\U83dc\U5355";
+		},
+		{
+			menus = (
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+				{
+					title = "\U6d4b\U8bd5\U83dc\U5355";
+					url = "";
+					icon = "";
+				},
+			);
+			title = "\U6d4b\U8bd5\U83dc\U5355";
+		},
+	);
+}

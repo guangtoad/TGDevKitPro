@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "TGDevKitProAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "TGDevKitProAbility_label",
+      "value": "label"
+    }
+  ]
+}

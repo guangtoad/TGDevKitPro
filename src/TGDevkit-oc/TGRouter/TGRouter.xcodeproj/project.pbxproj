@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F9F16722B9D58800396156 /* TGRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F9F15D22B9D58800396156 /* TGRouter.framework */; };
+		53F9F16C22B9D58800396156 /* TGRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F16B22B9D58800396156 /* TGRouterTests.m */; };
+		53F9F17A22B9E0AB00396156 /* TGRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F17822B9E0AB00396156 /* TGRouter.h */; };
+		53F9F17B22B9E0AB00396156 /* TGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F17922B9E0AB00396156 /* TGRouter.m */; };
+		53F9F20322BA00E800396156 /* UIViewController+TGRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F20122BA00E800396156 /* UIViewController+TGRouter.h */; };
+		53F9F20422BA00E800396156 /* UIViewController+TGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F20222BA00E800396156 /* UIViewController+TGRouter.m */; };
+		53F9F20722BA017100396156 /* TGRouterManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F20522BA017100396156 /* TGRouterManage.h */; };
+		53F9F20822BA017100396156 /* TGRouterManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F20622BA017100396156 /* TGRouterManage.m */; };
+		53F9F20B22BA08FE00396156 /* UINavigationController+TGRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F20922BA08FE00396156 /* UINavigationController+TGRouter.h */; };
+		53F9F20C22BA08FE00396156 /* UINavigationController+TGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F20A22BA08FE00396156 /* UINavigationController+TGRouter.m */; };
+		53F9F20F22BA094400396156 /* UITabBarController+TGRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F20D22BA094400396156 /* UITabBarController+TGRouter.h */; };
+		53F9F21022BA094400396156 /* UITabBarController+TGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F20E22BA094400396156 /* UITabBarController+TGRouter.m */; };
+		53F9F21E22BA1DB300396156 /* TGRouterDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F21C22BA1DB300396156 /* TGRouterDefs.h */; };
+		53F9F21F22BA1DB300396156 /* TGRouterDefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F21D22BA1DB300396156 /* TGRouterDefs.m */; };
+		53F9F22222BA277700396156 /* TGRouterHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F22022BA277700396156 /* TGRouterHandler.h */; };
+		53F9F22322BA277700396156 /* TGRouterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F22122BA277700396156 /* TGRouterHandler.m */; };
+		53F9F22622BA27A200396156 /* TGRouterUtilities+iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F22422BA27A200396156 /* TGRouterUtilities+iOS.h */; };
+		53F9F22722BA27A200396156 /* TGRouterUtilities+iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F22522BA27A200396156 /* TGRouterUtilities+iOS.m */; };
+		53F9F22A22BA289200396156 /* TGRouterUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F22822BA289200396156 /* TGRouterUtilities.h */; };
+		53F9F22B22BA289200396156 /* TGRouterUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F22922BA289200396156 /* TGRouterUtilities.m */; };
+		53F9F22F22BA3C7300396156 /* TGRouterModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F22D22BA3C7300396156 /* TGRouterModule.h */; };
+		53F9F23022BA3C7300396156 /* TGRouterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F22E22BA3C7300396156 /* TGRouterModule.m */; };
+		53F9F23322BA3CEA00396156 /* TGRouterCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F23122BA3CEA00396156 /* TGRouterCenter.h */; };
+		53F9F23422BA3CEA00396156 /* TGRouterCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F23222BA3CEA00396156 /* TGRouterCenter.m */; };
+		53F9F23722BA3F0400396156 /* TGRouterRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F23522BA3F0400396156 /* TGRouterRequest.h */; };
+		53F9F23822BA3F0400396156 /* TGRouterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F23622BA3F0400396156 /* TGRouterRequest.m */; };
+		53F9F23B22BA3F3200396156 /* TGRouterResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F9F23922BA3F3200396156 /* TGRouterResponse.h */; };
+		53F9F23C22BA3F3200396156 /* TGRouterResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F23A22BA3F3200396156 /* TGRouterResponse.m */; };
+		53F9F24822BA44AA00396156 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F24722BA44AA00396156 /* AppDelegate.m */; };
+		53F9F24B22BA44AA00396156 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F24A22BA44AA00396156 /* ViewController.m */; };
+		53F9F24E22BA44AA00396156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F9F24C22BA44AA00396156 /* Main.storyboard */; };
+		53F9F25122BA44AA00396156 /* TGRouterDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F24F22BA44AA00396156 /* TGRouterDemo.xcdatamodeld */; };
+		53F9F25322BA44AC00396156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F9F25222BA44AC00396156 /* Assets.xcassets */; };
+		53F9F25622BA44AC00396156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F9F25422BA44AC00396156 /* LaunchScreen.storyboard */; };
+		53F9F25922BA44AC00396156 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F25822BA44AC00396156 /* main.m */; };
+		53F9F26322BA44AC00396156 /* TGRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F26222BA44AC00396156 /* TGRouterDemoTests.m */; };
+		53F9F26E22BA44AD00396156 /* TGRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F26D22BA44AD00396156 /* TGRouterDemoUITests.m */; };
+		53F9F27922BA44D800396156 /* TGRouterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F22122BA277700396156 /* TGRouterHandler.m */; };
+		53F9F27A22BA44D800396156 /* UIViewController+TGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F20222BA00E800396156 /* UIViewController+TGRouter.m */; };
+		53F9F27B22BA44D800396156 /* UINavigationController+TGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F20A22BA08FE00396156 /* UINavigationController+TGRouter.m */; };
+		53F9F27C22BA44D800396156 /* UITabBarController+TGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F20E22BA094400396156 /* UITabBarController+TGRouter.m */; };
+		53F9F27D22BA44D800396156 /* TGRouterUtilities+iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F22522BA27A200396156 /* TGRouterUtilities+iOS.m */; };
+		53F9F27E22BA44D800396156 /* TGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F17922B9E0AB00396156 /* TGRouter.m */; };
+		53F9F27F22BA44D800396156 /* TGRouterManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F20622BA017100396156 /* TGRouterManage.m */; };
+		53F9F28022BA44D800396156 /* TGRouterDefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F21D22BA1DB300396156 /* TGRouterDefs.m */; };
+		53F9F28122BA44D800396156 /* TGRouterUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F22922BA289200396156 /* TGRouterUtilities.m */; };
+		53F9F28222BA44D800396156 /* TGRouterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F22E22BA3C7300396156 /* TGRouterModule.m */; };
+		53F9F28322BA44D800396156 /* TGRouterCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F23222BA3CEA00396156 /* TGRouterCenter.m */; };
+		53F9F28422BA44D800396156 /* TGRouterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F23622BA3F0400396156 /* TGRouterRequest.m */; };
+		53F9F28522BA44D800396156 /* TGRouterResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F23A22BA3F3200396156 /* TGRouterResponse.m */; };
+		53F9F28822BA4A6D00396156 /* V2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53F9F28722BA4A6D00396156 /* V2View.xib */; };
+		53F9F28C22BA4AF300396156 /* V22ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F28A22BA4AF300396156 /* V22ViewController.m */; };
+		53F9F28D22BA4AF300396156 /* V22ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53F9F28B22BA4AF300396156 /* V22ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53F9F16822B9D58800396156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F9F15422B9D58800396156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F9F15C22B9D58800396156;
+			remoteInfo = TGRouter;
+		};
+		53F9F25F22BA44AC00396156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F9F15422B9D58800396156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F9F24322BA44AA00396156;
+			remoteInfo = TGRouterDemo;
+		};
+		53F9F26A22BA44AD00396156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F9F15422B9D58800396156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F9F24322BA44AA00396156;
+			remoteInfo = TGRouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53F9F15D22B9D58800396156 /* TGRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F9F16122B9D58800396156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F9F16622B9D58800396156 /* TGRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F9F16B22B9D58800396156 /* TGRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterTests.m; sourceTree = "<group>"; };
+		53F9F16D22B9D58800396156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F9F17822B9E0AB00396156 /* TGRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRouter.h; sourceTree = "<group>"; };
+		53F9F17922B9E0AB00396156 /* TGRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouter.m; sourceTree = "<group>"; };
+		53F9F20122BA00E800396156 /* UIViewController+TGRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TGRouter.h"; sourceTree = "<group>"; };
+		53F9F20222BA00E800396156 /* UIViewController+TGRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TGRouter.m"; sourceTree = "<group>"; };
+		53F9F20522BA017100396156 /* TGRouterManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRouterManage.h; sourceTree = "<group>"; };
+		53F9F20622BA017100396156 /* TGRouterManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterManage.m; sourceTree = "<group>"; };
+		53F9F20922BA08FE00396156 /* UINavigationController+TGRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TGRouter.h"; sourceTree = "<group>"; };
+		53F9F20A22BA08FE00396156 /* UINavigationController+TGRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TGRouter.m"; sourceTree = "<group>"; };
+		53F9F20D22BA094400396156 /* UITabBarController+TGRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+TGRouter.h"; sourceTree = "<group>"; };
+		53F9F20E22BA094400396156 /* UITabBarController+TGRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+TGRouter.m"; sourceTree = "<group>"; };
+		53F9F21C22BA1DB300396156 /* TGRouterDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRouterDefs.h; sourceTree = "<group>"; };
+		53F9F21D22BA1DB300396156 /* TGRouterDefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterDefs.m; sourceTree = "<group>"; };
+		53F9F22022BA277700396156 /* TGRouterHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRouterHandler.h; sourceTree = "<group>"; };
+		53F9F22122BA277700396156 /* TGRouterHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterHandler.m; sourceTree = "<group>"; };
+		53F9F22422BA27A200396156 /* TGRouterUtilities+iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TGRouterUtilities+iOS.h"; sourceTree = "<group>"; };
+		53F9F22522BA27A200396156 /* TGRouterUtilities+iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TGRouterUtilities+iOS.m"; sourceTree = "<group>"; };
+		53F9F22822BA289200396156 /* TGRouterUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRouterUtilities.h; sourceTree = "<group>"; };
+		53F9F22922BA289200396156 /* TGRouterUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterUtilities.m; sourceTree = "<group>"; };
+		53F9F22D22BA3C7300396156 /* TGRouterModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRouterModule.h; sourceTree = "<group>"; };
+		53F9F22E22BA3C7300396156 /* TGRouterModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterModule.m; sourceTree = "<group>"; };
+		53F9F23122BA3CEA00396156 /* TGRouterCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRouterCenter.h; sourceTree = "<group>"; };
+		53F9F23222BA3CEA00396156 /* TGRouterCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterCenter.m; sourceTree = "<group>"; };
+		53F9F23522BA3F0400396156 /* TGRouterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRouterRequest.h; sourceTree = "<group>"; };
+		53F9F23622BA3F0400396156 /* TGRouterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterRequest.m; sourceTree = "<group>"; };
+		53F9F23922BA3F3200396156 /* TGRouterResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRouterResponse.h; sourceTree = "<group>"; };
+		53F9F23A22BA3F3200396156 /* TGRouterResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterResponse.m; sourceTree = "<group>"; };
+		53F9F24422BA44AA00396156 /* TGRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F9F24622BA44AA00396156 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53F9F24722BA44AA00396156 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53F9F24922BA44AA00396156 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53F9F24A22BA44AA00396156 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53F9F24D22BA44AA00396156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53F9F25022BA44AA00396156 /* TGRouterDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TGRouterDemo.xcdatamodel; sourceTree = "<group>"; };
+		53F9F25222BA44AC00396156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53F9F25522BA44AC00396156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53F9F25722BA44AC00396156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F9F25822BA44AC00396156 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53F9F25E22BA44AC00396156 /* TGRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F9F26222BA44AC00396156 /* TGRouterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterDemoTests.m; sourceTree = "<group>"; };
+		53F9F26422BA44AC00396156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F9F26922BA44AC00396156 /* TGRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F9F26D22BA44AD00396156 /* TGRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRouterDemoUITests.m; sourceTree = "<group>"; };
+		53F9F26F22BA44AD00396156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F9F28622BA453B00396156 /* UIKit+TGRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKit+TGRouter.h"; sourceTree = "<group>"; };
+		53F9F28722BA4A6D00396156 /* V2View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = V2View.xib; sourceTree = "<group>"; };
+		53F9F28922BA4AF300396156 /* V22ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V22ViewController.h; sourceTree = "<group>"; };
+		53F9F28A22BA4AF300396156 /* V22ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V22ViewController.m; sourceTree = "<group>"; };
+		53F9F28B22BA4AF300396156 /* V22ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = V22ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F9F15A22B9D58800396156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F16322B9D58800396156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F9F16722B9D58800396156 /* TGRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F24122BA44AA00396156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F25B22BA44AC00396156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F26622BA44AC00396156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F9F15322B9D58800396156 = {
+			isa = PBXGroup;
+			children = (
+				53F9F15F22B9D58800396156 /* TGRouter */,
+				53F9F16A22B9D58800396156 /* TGRouterTests */,
+				53F9F24522BA44AA00396156 /* TGRouterDemo */,
+				53F9F26122BA44AC00396156 /* TGRouterDemoTests */,
+				53F9F26C22BA44AD00396156 /* TGRouterDemoUITests */,
+				53F9F15E22B9D58800396156 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F9F15E22B9D58800396156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F15D22B9D58800396156 /* TGRouter.framework */,
+				53F9F16622B9D58800396156 /* TGRouterTests.xctest */,
+				53F9F24422BA44AA00396156 /* TGRouterDemo.app */,
+				53F9F25E22BA44AC00396156 /* TGRouterDemoTests.xctest */,
+				53F9F26922BA44AC00396156 /* TGRouterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F9F15F22B9D58800396156 /* TGRouter */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F17722B9E09F00396156 /* TGRouter */,
+				53F9F16122B9D58800396156 /* Info.plist */,
+			);
+			path = TGRouter;
+			sourceTree = "<group>";
+		};
+		53F9F16A22B9D58800396156 /* TGRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F16B22B9D58800396156 /* TGRouterTests.m */,
+				53F9F16D22B9D58800396156 /* Info.plist */,
+			);
+			path = TGRouterTests;
+			sourceTree = "<group>";
+		};
+		53F9F17722B9E09F00396156 /* TGRouter */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F22022BA277700396156 /* TGRouterHandler.h */,
+				53F9F22122BA277700396156 /* TGRouterHandler.m */,
+				53F9F20022BA00CC00396156 /* iOS */,
+				53F9F17822B9E0AB00396156 /* TGRouter.h */,
+				53F9F17922B9E0AB00396156 /* TGRouter.m */,
+				53F9F20522BA017100396156 /* TGRouterManage.h */,
+				53F9F20622BA017100396156 /* TGRouterManage.m */,
+				53F9F21C22BA1DB300396156 /* TGRouterDefs.h */,
+				53F9F21D22BA1DB300396156 /* TGRouterDefs.m */,
+				53F9F22822BA289200396156 /* TGRouterUtilities.h */,
+				53F9F22922BA289200396156 /* TGRouterUtilities.m */,
+				53F9F22D22BA3C7300396156 /* TGRouterModule.h */,
+				53F9F22E22BA3C7300396156 /* TGRouterModule.m */,
+				53F9F23122BA3CEA00396156 /* TGRouterCenter.h */,
+				53F9F23222BA3CEA00396156 /* TGRouterCenter.m */,
+				53F9F23522BA3F0400396156 /* TGRouterRequest.h */,
+				53F9F23622BA3F0400396156 /* TGRouterRequest.m */,
+				53F9F23922BA3F3200396156 /* TGRouterResponse.h */,
+				53F9F23A22BA3F3200396156 /* TGRouterResponse.m */,
+			);
+			path = TGRouter;
+			sourceTree = "<group>";
+		};
+		53F9F20022BA00CC00396156 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F22C22BA364A00396156 /* UIKit+TGRouter */,
+				53F9F22422BA27A200396156 /* TGRouterUtilities+iOS.h */,
+				53F9F22522BA27A200396156 /* TGRouterUtilities+iOS.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		53F9F22C22BA364A00396156 /* UIKit+TGRouter */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F20122BA00E800396156 /* UIViewController+TGRouter.h */,
+				53F9F20222BA00E800396156 /* UIViewController+TGRouter.m */,
+				53F9F20922BA08FE00396156 /* UINavigationController+TGRouter.h */,
+				53F9F20A22BA08FE00396156 /* UINavigationController+TGRouter.m */,
+				53F9F20D22BA094400396156 /* UITabBarController+TGRouter.h */,
+				53F9F20E22BA094400396156 /* UITabBarController+TGRouter.m */,
+				53F9F28622BA453B00396156 /* UIKit+TGRouter.h */,
+			);
+			path = "UIKit+TGRouter";
+			sourceTree = "<group>";
+		};
+		53F9F24522BA44AA00396156 /* TGRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F24622BA44AA00396156 /* AppDelegate.h */,
+				53F9F24722BA44AA00396156 /* AppDelegate.m */,
+				53F9F24922BA44AA00396156 /* ViewController.h */,
+				53F9F24A22BA44AA00396156 /* ViewController.m */,
+				53F9F28922BA4AF300396156 /* V22ViewController.h */,
+				53F9F28A22BA4AF300396156 /* V22ViewController.m */,
+				53F9F28B22BA4AF300396156 /* V22ViewController.xib */,
+				53F9F28722BA4A6D00396156 /* V2View.xib */,
+				53F9F24C22BA44AA00396156 /* Main.storyboard */,
+				53F9F25222BA44AC00396156 /* Assets.xcassets */,
+				53F9F25422BA44AC00396156 /* LaunchScreen.storyboard */,
+				53F9F25722BA44AC00396156 /* Info.plist */,
+				53F9F25822BA44AC00396156 /* main.m */,
+				53F9F24F22BA44AA00396156 /* TGRouterDemo.xcdatamodeld */,
+			);
+			path = TGRouterDemo;
+			sourceTree = "<group>";
+		};
+		53F9F26122BA44AC00396156 /* TGRouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F26222BA44AC00396156 /* TGRouterDemoTests.m */,
+				53F9F26422BA44AC00396156 /* Info.plist */,
+			);
+			path = TGRouterDemoTests;
+			sourceTree = "<group>";
+		};
+		53F9F26C22BA44AD00396156 /* TGRouterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F26D22BA44AD00396156 /* TGRouterDemoUITests.m */,
+				53F9F26F22BA44AD00396156 /* Info.plist */,
+			);
+			path = TGRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53F9F15822B9D58800396156 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F9F20B22BA08FE00396156 /* UINavigationController+TGRouter.h in Headers */,
+				53F9F23B22BA3F3200396156 /* TGRouterResponse.h in Headers */,
+				53F9F17A22B9E0AB00396156 /* TGRouter.h in Headers */,
+				53F9F23322BA3CEA00396156 /* TGRouterCenter.h in Headers */,
+				53F9F21E22BA1DB300396156 /* TGRouterDefs.h in Headers */,
+				53F9F22A22BA289200396156 /* TGRouterUtilities.h in Headers */,
+				53F9F22622BA27A200396156 /* TGRouterUtilities+iOS.h in Headers */,
+				53F9F20322BA00E800396156 /* UIViewController+TGRouter.h in Headers */,
+				53F9F22F22BA3C7300396156 /* TGRouterModule.h in Headers */,
+				53F9F23722BA3F0400396156 /* TGRouterRequest.h in Headers */,
+				53F9F22222BA277700396156 /* TGRouterHandler.h in Headers */,
+				53F9F20722BA017100396156 /* TGRouterManage.h in Headers */,
+				53F9F20F22BA094400396156 /* UITabBarController+TGRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53F9F15C22B9D58800396156 /* TGRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F9F17122B9D58800396156 /* Build configuration list for PBXNativeTarget "TGRouter" */;
+			buildPhases = (
+				53F9F15822B9D58800396156 /* Headers */,
+				53F9F15922B9D58800396156 /* Sources */,
+				53F9F15A22B9D58800396156 /* Frameworks */,
+				53F9F15B22B9D58800396156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGRouter;
+			productName = TGRouter;
+			productReference = 53F9F15D22B9D58800396156 /* TGRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53F9F16522B9D58800396156 /* TGRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F9F17422B9D58800396156 /* Build configuration list for PBXNativeTarget "TGRouterTests" */;
+			buildPhases = (
+				53F9F16222B9D58800396156 /* Sources */,
+				53F9F16322B9D58800396156 /* Frameworks */,
+				53F9F16422B9D58800396156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F9F16922B9D58800396156 /* PBXTargetDependency */,
+			);
+			name = TGRouterTests;
+			productName = TGRouterTests;
+			productReference = 53F9F16622B9D58800396156 /* TGRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53F9F24322BA44AA00396156 /* TGRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F9F27622BA44AD00396156 /* Build configuration list for PBXNativeTarget "TGRouterDemo" */;
+			buildPhases = (
+				53F9F24022BA44AA00396156 /* Sources */,
+				53F9F24122BA44AA00396156 /* Frameworks */,
+				53F9F24222BA44AA00396156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGRouterDemo;
+			productName = TGRouterDemo;
+			productReference = 53F9F24422BA44AA00396156 /* TGRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53F9F25D22BA44AC00396156 /* TGRouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F9F27722BA44AD00396156 /* Build configuration list for PBXNativeTarget "TGRouterDemoTests" */;
+			buildPhases = (
+				53F9F25A22BA44AC00396156 /* Sources */,
+				53F9F25B22BA44AC00396156 /* Frameworks */,
+				53F9F25C22BA44AC00396156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F9F26022BA44AC00396156 /* PBXTargetDependency */,
+			);
+			name = TGRouterDemoTests;
+			productName = TGRouterDemoTests;
+			productReference = 53F9F25E22BA44AC00396156 /* TGRouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53F9F26822BA44AC00396156 /* TGRouterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F9F27822BA44AD00396156 /* Build configuration list for PBXNativeTarget "TGRouterDemoUITests" */;
+			buildPhases = (
+				53F9F26522BA44AC00396156 /* Sources */,
+				53F9F26622BA44AC00396156 /* Frameworks */,
+				53F9F26722BA44AC00396156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F9F26B22BA44AD00396156 /* PBXTargetDependency */,
+			);
+			name = TGRouterDemoUITests;
+			productName = TGRouterDemoUITests;
+			productReference = 53F9F26922BA44AC00396156 /* TGRouterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F9F15422B9D58800396156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = toad;
+				TargetAttributes = {
+					53F9F15C22B9D58800396156 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					53F9F16522B9D58800396156 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					53F9F24322BA44AA00396156 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					53F9F25D22BA44AC00396156 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 53F9F24322BA44AA00396156;
+					};
+					53F9F26822BA44AC00396156 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 53F9F24322BA44AA00396156;
+					};
+				};
+			};
+			buildConfigurationList = 53F9F15722B9D58800396156 /* Build configuration list for PBXProject "TGRouter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53F9F15322B9D58800396156;
+			productRefGroup = 53F9F15E22B9D58800396156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F9F15C22B9D58800396156 /* TGRouter */,
+				53F9F16522B9D58800396156 /* TGRouterTests */,
+				53F9F24322BA44AA00396156 /* TGRouterDemo */,
+				53F9F25D22BA44AC00396156 /* TGRouterDemoTests */,
+				53F9F26822BA44AC00396156 /* TGRouterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F9F15B22B9D58800396156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F16422B9D58800396156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F24222BA44AA00396156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F9F25622BA44AC00396156 /* LaunchScreen.storyboard in Resources */,
+				53F9F28D22BA4AF300396156 /* V22ViewController.xib in Resources */,
+				53F9F25322BA44AC00396156 /* Assets.xcassets in Resources */,
+				53F9F28822BA4A6D00396156 /* V2View.xib in Resources */,
+				53F9F24E22BA44AA00396156 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F25C22BA44AC00396156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F26722BA44AC00396156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F9F15922B9D58800396156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F9F22B22BA289200396156 /* TGRouterUtilities.m in Sources */,
+				53F9F23C22BA3F3200396156 /* TGRouterResponse.m in Sources */,
+				53F9F23022BA3C7300396156 /* TGRouterModule.m in Sources */,
+				53F9F22722BA27A200396156 /* TGRouterUtilities+iOS.m in Sources */,
+				53F9F20822BA017100396156 /* TGRouterManage.m in Sources */,
+				53F9F22322BA277700396156 /* TGRouterHandler.m in Sources */,
+				53F9F23822BA3F0400396156 /* TGRouterRequest.m in Sources */,
+				53F9F20422BA00E800396156 /* UIViewController+TGRouter.m in Sources */,
+				53F9F17B22B9E0AB00396156 /* TGRouter.m in Sources */,
+				53F9F21F22BA1DB300396156 /* TGRouterDefs.m in Sources */,
+				53F9F23422BA3CEA00396156 /* TGRouterCenter.m in Sources */,
+				53F9F20C22BA08FE00396156 /* UINavigationController+TGRouter.m in Sources */,
+				53F9F21022BA094400396156 /* UITabBarController+TGRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F16222B9D58800396156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F9F16C22B9D58800396156 /* TGRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F24022BA44AA00396156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F9F27922BA44D800396156 /* TGRouterHandler.m in Sources */,
+				53F9F27A22BA44D800396156 /* UIViewController+TGRouter.m in Sources */,
+				53F9F27B22BA44D800396156 /* UINavigationController+TGRouter.m in Sources */,
+				53F9F28C22BA4AF300396156 /* V22ViewController.m in Sources */,
+				53F9F27C22BA44D800396156 /* UITabBarController+TGRouter.m in Sources */,
+				53F9F27D22BA44D800396156 /* TGRouterUtilities+iOS.m in Sources */,
+				53F9F27E22BA44D800396156 /* TGRouter.m in Sources */,
+				53F9F27F22BA44D800396156 /* TGRouterManage.m in Sources */,
+				53F9F28022BA44D800396156 /* TGRouterDefs.m in Sources */,
+				53F9F28122BA44D800396156 /* TGRouterUtilities.m in Sources */,
+				53F9F28222BA44D800396156 /* TGRouterModule.m in Sources */,
+				53F9F28322BA44D800396156 /* TGRouterCenter.m in Sources */,
+				53F9F28422BA44D800396156 /* TGRouterRequest.m in Sources */,
+				53F9F28522BA44D800396156 /* TGRouterResponse.m in Sources */,
+				53F9F24B22BA44AA00396156 /* ViewController.m in Sources */,
+				53F9F25122BA44AA00396156 /* TGRouterDemo.xcdatamodeld in Sources */,
+				53F9F25922BA44AC00396156 /* main.m in Sources */,
+				53F9F24822BA44AA00396156 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F25A22BA44AC00396156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F9F26322BA44AC00396156 /* TGRouterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F9F26522BA44AC00396156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F9F26E22BA44AD00396156 /* TGRouterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53F9F16922B9D58800396156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F9F15C22B9D58800396156 /* TGRouter */;
+			targetProxy = 53F9F16822B9D58800396156 /* PBXContainerItemProxy */;
+		};
+		53F9F26022BA44AC00396156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F9F24322BA44AA00396156 /* TGRouterDemo */;
+			targetProxy = 53F9F25F22BA44AC00396156 /* PBXContainerItemProxy */;
+		};
+		53F9F26B22BA44AD00396156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F9F24322BA44AA00396156 /* TGRouterDemo */;
+			targetProxy = 53F9F26A22BA44AD00396156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53F9F24C22BA44AA00396156 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F9F24D22BA44AA00396156 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53F9F25422BA44AC00396156 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F9F25522BA44AC00396156 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53F9F16F22B9D58800396156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53F9F17022B9D58800396156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53F9F17222B9D58800396156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TGRouter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGRouter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53F9F17322B9D58800396156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TGRouter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGRouter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53F9F17522B9D58800396156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53F9F17622B9D58800396156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53F9F27022BA44AD00396156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53F9F27122BA44AD00396156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53F9F27222BA44AD00396156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGRouterDemo.app/TGRouterDemo";
+			};
+			name = Debug;
+		};
+		53F9F27322BA44AD00396156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGRouterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGRouterDemo.app/TGRouterDemo";
+			};
+			name = Release;
+		};
+		53F9F27422BA44AD00396156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGRouterDemo;
+			};
+			name = Debug;
+		};
+		53F9F27522BA44AD00396156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGRouterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGRouterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGRouterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F9F15722B9D58800396156 /* Build configuration list for PBXProject "TGRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F9F16F22B9D58800396156 /* Debug */,
+				53F9F17022B9D58800396156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F9F17122B9D58800396156 /* Build configuration list for PBXNativeTarget "TGRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F9F17222B9D58800396156 /* Debug */,
+				53F9F17322B9D58800396156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F9F17422B9D58800396156 /* Build configuration list for PBXNativeTarget "TGRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F9F17522B9D58800396156 /* Debug */,
+				53F9F17622B9D58800396156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F9F27622BA44AD00396156 /* Build configuration list for PBXNativeTarget "TGRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F9F27022BA44AD00396156 /* Debug */,
+				53F9F27122BA44AD00396156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F9F27722BA44AD00396156 /* Build configuration list for PBXNativeTarget "TGRouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F9F27222BA44AD00396156 /* Debug */,
+				53F9F27322BA44AD00396156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F9F27822BA44AD00396156 /* Build configuration list for PBXNativeTarget "TGRouterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F9F27422BA44AD00396156 /* Debug */,
+				53F9F27522BA44AD00396156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53F9F24F22BA44AA00396156 /* TGRouterDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53F9F25022BA44AA00396156 /* TGRouterDemo.xcdatamodel */,
+			);
+			currentVersion = 53F9F25022BA44AA00396156 /* TGRouterDemo.xcdatamodel */;
+			path = TGRouterDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53F9F15422B9D58800396156 /* Project object */;
+}

@@ -1,0 +1,16 @@
+{
+	menu = "";
+	type = "";
+	groups = (
+		{
+			menus = (
+				{
+					title = "";
+					url = "";
+					icon = "";
+				},
+			);
+			title = "";
+		},
+	);
+}
