@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Xcode
+*.xcworkspace/
+DerivedData/
+
+# VSCode
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
+# Android Studio
+build/
+.gradle/
