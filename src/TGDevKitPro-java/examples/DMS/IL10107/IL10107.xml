@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:admissionApptResponse xmlns:ns2="http://adapter-dms-elc-sit.dms.lexus.com.cn">
+            <EvaluateResult>
+                <Head>
+                    <MessageID>IL10107</MessageID>
+                    <TransmissionDate>2024/01/19 11:54:02</TransmissionDate>
+                </Head>
+                <Detail>
+                    <Result>
+                        <ResultId>000000</ResultId>
+                    </Result>
+                </Detail>
+            </EvaluateResult>
+        </ns2:admissionApptResponse>
+    </soap:Body>
+</soap:Envelope>

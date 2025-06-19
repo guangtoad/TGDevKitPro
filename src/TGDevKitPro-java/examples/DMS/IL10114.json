@@ -1,0 +1,116 @@
+{
+  "config" : {
+    "basePath":"",
+    "schemasVerificationEnabled": false,
+    "schemasStting" : {
+      "header":[
+        {
+          "path":"x-id",
+          "format":"DDSXID",
+          "type":"",
+          "errorResponse":{
+            "status" : 400,
+            "body" : "file://4P03002.json",
+            "defResponseFile" : "defResponseFile",
+            "header" : {
+              "Content-Type" : "text/json;charset=utf-8"
+            }
+          }
+        },
+        {
+          "path":"x-pass",
+          "format":"DDSXPASS",
+          "type":"",
+          "errorResponse":{
+            "status" : 400,
+            "body" : "file://4P03002.json",
+            "defResponseFile" : "defResponseFile",
+            "header" : {
+              "Content-Type" : "text/json;charset=utf-8"
+            }
+          }
+        }
+      ]
+    },
+    "schemasPath" : "",
+    "schemas" : "",
+    "errorResponsePath" : "",
+    "dynamicResponseEnabled": false,
+    "dynamicResponseSetting":{
+      "fileNameMaxx":128,
+      "bodyType":"json",
+      "parameters" : [],
+      "body" :  [
+            "$.vin"
+      ],
+      "header" : [
+      ],
+      "basePath" : "",
+      "dynamicResponse" :{
+        "12345678901234567":{ 
+          "status" : 200,
+          "body" : "{\"asd\":\"asdasd\"}",
+          "defResponseFile" : "defResponseFile",
+          "header" : {
+            "Content-Type" : "text/json;charset=utf-8"
+          }
+        }
+      }
+    },
+    "useExamples" : true,
+    "inputType" : 1,
+    "openChectInput" : true,
+    "encryptionEnabled": false,
+    "encryptionSetting":{
+        "mode":"AES/CBC/PKCS5Padding",
+        "aesKey":"032b8b0a090bae3c",
+        "aesIV":"032b8b0a090bae3c",
+        "rsaKey":"",
+        "charsetName":"utf-8",
+        "codecType":1
+    },
+    "decryptionEnabled": false,
+    "decryptionSetting":{  
+        "mode":"AES/CBC/PKCS5Padding",
+        "aesKey":"032b8b0a090bae3c",
+        "aesIV":"032b8b0a090bae3c",
+        "rsaKey":"",
+        "charsetName":"UTF-8",
+        "codecType":1,
+        "errorResposne" : {
+          "status" : 200,
+          "body" : "file://4P03001.json",
+          "defResponseFile" : "defResponseFile",
+          "header" : {
+            "Content-Type" : "text/json;charset=utf-8"
+          }
+        }
+    }
+  },
+  "IF_Name" : "a2",
+  "IF_description" : "获取可预约时间",
+  "defaultResposne" : {
+    "status" : 200,
+    "body" : "file://IL10114.xml",
+    "defResponseFile" : "defResponseFile",
+    "header" : {
+      "Content-Type" : "text/xml;charset=utf-8"
+    }
+  },
+  "examples" : {
+    "body" : [
+      "/SPML/RESULT/CODE"
+    ],
+    "formatStyle" : 1,
+    "fileExtension" : "json",
+    "examplesPath" : "",
+    "header" : [
+      "header_a",
+      "header_b"
+    ],
+    "parameters" : [
+      "parameters_a",
+      "parameters_b"
+    ]
+  }
+}

@@ -13,6 +13,8 @@
 		533925C32DFAC90F009DBB76 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 533925C22DFAC90F009DBB76 /* Alamofire */; };
 		533926282DFACB18009DBB76 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 533926272DFACB18009DBB76 /* Realm */; };
 		5339262A2DFACB18009DBB76 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 533926292DFACB18009DBB76 /* RealmSwift */; };
+		539FE3762E029FEA00DAF020 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539FE3752E029FEA00DAF020 /* NetworkExtension.framework */; };
+		539FE37E2E029FEA00DAF020 /* TGDevKitProNetworkExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 539FE3742E029FEA00DAF020 /* TGDevKitProNetworkExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		53DC054A2DF830F1000A2D4E /* TGDevUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DC053F2DF830EE000A2D4E /* TGDevUIKit.framework */; };
 		53DC05542DF830F1000A2D4E /* TGDevUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DC053F2DF830EE000A2D4E /* TGDevUIKit.framework */; platformFilters = (ios, macos, xros, ); };
 		53DC05552DF830F1000A2D4E /* TGDevUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53DC053F2DF830EE000A2D4E /* TGDevUIKit.framework */; platformFilters = (ios, macos, xros, ); settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -46,6 +48,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 53391AEC2DF9737B009DBB76;
 			remoteInfo = TGRouter;
+		};
+		539FE37C2E029FEA00DAF020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53DC04FE2DF830D2000A2D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539FE3732E029FEA00DAF020;
+			remoteInfo = TGDevKitProNetworkExtension;
 		};
 		53DC051D2DF830DB000A2D4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -106,6 +115,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		539FE37F2E029FEA00DAF020 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				539FE37E2E029FEA00DAF020 /* TGDevKitProNetworkExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		53DC05592DF830F1000A2D4E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +144,8 @@
 /* Begin PBXFileReference section */
 		53391AED2DF9737B009DBB76 /* TGRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53391AF72DF9737E009DBB76 /* TGRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		539FE3742E029FEA00DAF020 /* TGDevKitProNetworkExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TGDevKitProNetworkExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		539FE3752E029FEA00DAF020 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		53DC05062DF830D2000A2D4E /* TGDevKitPro-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TGDevKitPro-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DC051C2DF830DB000A2D4E /* TGDevKitPro-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TGDevKitPro-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DC05262DF830DB000A2D4E /* TGDevKitPro-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TGDevKitPro-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +170,13 @@
 				TGRouter.h,
 			);
 			target = 53391AEC2DF9737B009DBB76 /* TGRouter */;
+		};
+		539FE3832E029FEA00DAF020 /* Exceptions for "TGDevKitProNetworkExtension" folder in "TGDevKitProNetworkExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 539FE3732E029FEA00DAF020 /* TGDevKitProNetworkExtension */;
 		};
 		53DC052E2DF830DB000A2D4E /* Exceptions for "TGDevKitPro-swift" folder in "TGDevKitPro-swift" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -195,6 +224,14 @@
 		53391AFD2DF9737E009DBB76 /* TGRouterTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TGRouterTests;
+			sourceTree = "<group>";
+		};
+		539FE3772E029FEA00DAF020 /* TGDevKitProNetworkExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				539FE3832E029FEA00DAF020 /* Exceptions for "TGDevKitProNetworkExtension" folder in "TGDevKitProNetworkExtension" target */,
+			);
+			path = TGDevKitProNetworkExtension;
 			sourceTree = "<group>";
 		};
 		53DC05082DF830D2000A2D4E /* TGDevKitPro-swift */ = {
@@ -274,6 +311,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				53391AF82DF9737E009DBB76 /* TGRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FE3712E029FEA00DAF020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539FE3762E029FEA00DAF020 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +429,7 @@
 				53DC05AE2DF83275000A2D4E /* TGDevKitProNotificationContentExtension */,
 				53391AEE2DF9737B009DBB76 /* TGRouter */,
 				53391AFD2DF9737E009DBB76 /* TGRouterTests */,
+				539FE3772E029FEA00DAF020 /* TGDevKitProNetworkExtension */,
 				53DC05842DF83197000A2D4E /* Frameworks */,
 				53DC05072DF830D2000A2D4E /* Products */,
 			);
@@ -405,6 +451,7 @@
 				53DC05FC2DF83429000A2D4E /* TGDevKitProBundle.bundle */,
 				53391AED2DF9737B009DBB76 /* TGRouter.framework */,
 				53391AF72DF9737E009DBB76 /* TGRouterTests.xctest */,
+				539FE3742E029FEA00DAF020 /* TGDevKitProNetworkExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -416,6 +463,7 @@
 				53DC05872DF83197000A2D4E /* SwiftUI.framework */,
 				53DC05AA2DF83275000A2D4E /* UserNotifications.framework */,
 				53DC05AC2DF83275000A2D4E /* UserNotificationsUI.framework */,
+				539FE3752E029FEA00DAF020 /* NetworkExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -494,6 +542,28 @@
 			productReference = 53391AF72DF9737E009DBB76 /* TGRouterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		539FE3732E029FEA00DAF020 /* TGDevKitProNetworkExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539FE3822E029FEA00DAF020 /* Build configuration list for PBXNativeTarget "TGDevKitProNetworkExtension" */;
+			buildPhases = (
+				539FE3702E029FEA00DAF020 /* Sources */,
+				539FE3712E029FEA00DAF020 /* Frameworks */,
+				539FE3722E029FEA00DAF020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				539FE3772E029FEA00DAF020 /* TGDevKitProNetworkExtension */,
+			);
+			name = TGDevKitProNetworkExtension;
+			packageProductDependencies = (
+			);
+			productName = TGDevKitProNetworkExtension;
+			productReference = 539FE3742E029FEA00DAF020 /* TGDevKitProNetworkExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		53DC05052DF830D2000A2D4E /* TGDevKitPro-swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53DC052F2DF830DB000A2D4E /* Build configuration list for PBXNativeTarget "TGDevKitPro-swift" */;
@@ -502,6 +572,7 @@
 				53DC05032DF830D2000A2D4E /* Frameworks */,
 				53DC05042DF830D2000A2D4E /* Resources */,
 				53DC05592DF830F1000A2D4E /* Embed Frameworks */,
+				539FE37F2E029FEA00DAF020 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -509,6 +580,7 @@
 				53DC05532DF830F1000A2D4E /* PBXTargetDependency */,
 				53DC05762DF830FC000A2D4E /* PBXTargetDependency */,
 				53391B012DF9737E009DBB76 /* PBXTargetDependency */,
+				539FE37D2E029FEA00DAF020 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				53DC05082DF830D2000A2D4E /* TGDevKitPro-swift */,
@@ -765,6 +837,9 @@
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = 53DC05052DF830D2000A2D4E;
 					};
+					539FE3732E029FEA00DAF020 = {
+						CreatedOnToolsVersion = 16.4;
+					};
 					53DC05052DF830D2000A2D4E = {
 						CreatedOnToolsVersion = 16.4;
 					};
@@ -817,24 +892,27 @@
 			packageReferences = (
 				533925C12DFAC90F009DBB76 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				533926262DFACB18009DBB76 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				539FE4062E03BAC700DAF020 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				539FE4072E03BC4D00DAF020 /* XCRemoteSwiftPackageReference "R.swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 53DC05072DF830D2000A2D4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				53DC05612DF830FC000A2D4E /* TGDevKit */,
+				53DC056B2DF830FC000A2D4E /* TGDevKitTests */,
+				53DC053E2DF830EE000A2D4E /* TGDevUIKit */,
+				53391AEC2DF9737B009DBB76 /* TGRouter */,
+				53DC05482DF830F1000A2D4E /* TGDevUIKitTests */,
 				53DC05052DF830D2000A2D4E /* TGDevKitPro-swift */,
 				53DC05FB2DF83429000A2D4E /* TGDevKitProBundle */,
 				53DC051B2DF830DB000A2D4E /* TGDevKitPro-swiftTests */,
 				53DC05252DF830DB000A2D4E /* TGDevKitPro-swiftUITests */,
-				53DC05612DF830FC000A2D4E /* TGDevKit */,
-				53DC056B2DF830FC000A2D4E /* TGDevKitTests */,
-				53DC053E2DF830EE000A2D4E /* TGDevUIKit */,
-				53DC05482DF830F1000A2D4E /* TGDevUIKitTests */,
+				539FE3732E029FEA00DAF020 /* TGDevKitProNetworkExtension */,
 				53DC05822DF83197000A2D4E /* TGDevKitProWidgetExtensionExtension */,
 				53DC059B2DF831EB000A2D4E /* TGDevKitProNotificationServiceExtension */,
 				53DC05A82DF83275000A2D4E /* TGDevKitProNotificationContentExtension */,
-				53391AEC2DF9737B009DBB76 /* TGRouter */,
 				53391AF62DF9737E009DBB76 /* TGRouterTests */,
 			);
 		};
@@ -849,6 +927,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		53391AF52DF9737E009DBB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FE3722E029FEA00DAF020 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -949,6 +1034,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		539FE3702E029FEA00DAF020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		53DC05022DF830D2000A2D4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1043,6 +1135,11 @@
 			isa = PBXTargetDependency;
 			target = 53391AEC2DF9737B009DBB76 /* TGRouter */;
 			targetProxy = 53391B002DF9737E009DBB76 /* PBXContainerItemProxy */;
+		};
+		539FE37D2E029FEA00DAF020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 539FE3732E029FEA00DAF020 /* TGDevKitProNetworkExtension */;
+			targetProxy = 539FE37C2E029FEA00DAF020 /* PBXContainerItemProxy */;
 		};
 		53DC051E2DF830DB000A2D4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1193,6 +1290,58 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGDevKitPro-swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TGDevKitPro-swift";
+			};
+			name = Release;
+		};
+		539FE3802E029FEA00DAF020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TGDevKitProNetworkExtension/TGDevKitProNetworkExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TGDevKitProNetworkExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TGDevKitProNetworkExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.pro.swift.TGDevKitPro-swift.TGDevKitProNetworkExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		539FE3812E029FEA00DAF020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TGDevKitProNetworkExtension/TGDevKitProNetworkExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TGDevKitProNetworkExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TGDevKitProNetworkExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syqb.devkit.pro.swift.TGDevKitPro-swift.TGDevKitProNetworkExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1924,6 +2073,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		539FE3822E029FEA00DAF020 /* Build configuration list for PBXNativeTarget "TGDevKitProNetworkExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539FE3802E029FEA00DAF020 /* Debug */,
+				539FE3812E029FEA00DAF020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		53DC05012DF830D2000A2D4E /* Build configuration list for PBXProject "TGDevKitPro-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2046,6 +2204,22 @@
 		533926262DFACB18009DBB76 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		539FE4062E03BAC700DAF020 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.1;
+			};
+		};
+		539FE4072E03BC4D00DAF020 /* XCRemoteSwiftPackageReference "R.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.Library";
 			requirement = {
 				branch = master;
 				kind = branch;

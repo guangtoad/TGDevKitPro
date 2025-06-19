@@ -1,0 +1,102 @@
+{
+  "config" : {
+    "basePath":"",
+    "schemasVerificationEnabled": false,
+    "schemasStting" : {
+      "header":[
+        {
+          "path":"Content-type",
+          "format":"application\/json",
+          "type":"",
+          "errorResponse":{
+            "status" : 200,
+            "body" : "file://ContenttypeError.json",
+            "defResponseFile" : "defResponseFile",
+            "header" : {
+              "Content-Type" : "application/json"
+            }
+          }
+        }
+      ]
+    },
+    "waitingTime":0,
+    "schemasPath" : "",
+    "schemas" : "",
+    "errorResponsePath" : "",
+    "dynamicResponseEnabled": false,
+    "dynamicResponseSetting":{
+      "fileNameMaxx":128,
+      "bodyType":"json",
+      "parameters" : [],
+      "body" :  [
+            "json://$.functionCode",
+            "json://$.page"
+      ],
+      "header" : [
+      ],
+      "basePath" : "",
+      "dynamicResponse" :{
+        "banner":{ 
+          "status" : 200,
+          "body" : "file://banner.json",
+          "defResponseFile" : "defResponseFile",
+          "header" : {
+            "Content-Type" : "text/json;charset=utf-8"
+          }
+        }
+      }
+    },
+    "useExamples" : false,
+    "inputType" : 1,
+    "openChectInput" : false,
+    "encryptionEnabled": false,
+    "encryptionSetting":{
+        "mode":"AES/CBC/PKCS5Padding",
+        "aesKey":"032b8b0a090bae3c",
+        "aesIV":"032b8b0a090bae3c",
+        "rsaKey":"",
+        "charsetName":"utf-8",
+        "codecType":1
+    },
+    "decryptionEnabled": false,
+    "decryptionSetting":{  
+        "mode":"AES/CBC/PKCS5Padding",
+        "aesKey":"032b8b0a090bae3c",
+        "aesIV":"032b8b0a090bae3c",
+        "rsaKey":"",
+        "charsetName":"UTF-8",
+        "codecType":1,
+        "errorResposne" : {
+          "status" : 200,
+          "body" : "a",
+          "defResponseFile" : "defResponseFile",
+          "header" : {
+              "Content-Type" : "application/json"
+          }
+        }
+    }
+  },
+  "IF_Name" : "用户信息同步",
+  "IF_description" : "用户信息同",
+  "defaultResposne" : {
+    "status" : 200,
+    "body" : "file://default.json",
+    "defResponseFile" : "defResponseFile",
+    "header" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "examples" : {
+    "body" : [
+      "/SPML/RESULT/CODE"
+    ],
+    "formatStyle" : 1,
+    "fileExtension" : "json",
+    "examplesPath" : "",
+    "header" : [
+    ],
+    "parameters" : [
+    ]
+
+  }
+}

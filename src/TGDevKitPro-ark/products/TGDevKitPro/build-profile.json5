@@ -19,7 +19,28 @@
   ],
   "targets": [
     {
-      "name": "default"
+      "name": "development",
+      "source": {
+        "sourceRoots": [
+          "./src/development"
+        ]
+      }
+    },
+    {
+      "name": "beta",
+      "source": {
+        "sourceRoots": [
+          "./src/beta"
+        ]
+      }
+    },
+    {
+      "name": "product",
+      "source": {
+        "sourceRoots": [
+          "./src/product"
+        ]
+      }
     },
     {
       "name": "ohosTest",

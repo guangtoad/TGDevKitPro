@@ -1,0 +1,15 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:secondVerificationInfoResponse xmlns:ns2="http://adapter-dms-elc-sit.dms.lexus.com.cn">
+            <VerificationResult>
+                <Detail>
+                    <Result>
+                        <ResultId>000000</ResultId>
+                        <Vin>JTHCBAAD5Y5000974</Vin>
+						 <imageId>ceshi</imageId>
+                    </Result>
+                </Detail>
+            </VerificationResult>
+        </ns2:secondVerificationInfoResponse>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,174 @@
+{
+  "config": {
+    "basePath": "",
+    "schemasVerificationEnabled": false,
+    "schemasStting": {
+      "header": [
+        {
+          "path": "Content-type",
+          "format": "application/json",
+          "type": "",
+          "errorResponse": {
+            "status": 200,
+            "body": "file://ContenttypeError.json",
+            "defResponseFile": "defResponseFile",
+            "header": {
+              "Content-Type": "application/json"
+            }
+          }
+        }
+      ]
+    },
+    "schemasPath": "",
+    "schemas": "",
+    "errorResponsePath": "",
+    "dynamicResponseEnabled": true,
+    "dynamicResponseSetting": {
+      "fileNameMaxx": 128,
+      "bodyType": "json",
+      "parameters": [],
+      "body": [
+        "xpath:////Vin","xpath:////TypeFlg"
+      ],
+      "header": [],
+      "basePath": "",
+      "dynamicResponse": {
+        "JTHBT1GG7G20391731": {
+          "status": 200,
+          "body": "file://JTHBT1GG7G20391731.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBT1GG7G20391730": {
+          "status": 200,
+          "body": "file://JTHBT1GG7G20391730.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBT1GG7G20391732": {
+          "status": 200,
+          "body": "file://JTHBT1GG7G20391732.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBYLFF7M50160690": {
+          "status": 200,
+          "body": "file://JTHBYLFF7M50160690.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHCBAAD5Y50009740": {
+          "status": 200,
+          "body": "file://JTHCBAAD5Y50009740.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHKR5BH3E22178430": {
+          "status": 200,
+          "body": "file://JTHKR5BH3E22178430.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBN36FX650461540": {
+          "status": 200,
+          "body": "file://JTHBN36FX650461540.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBA1BL3GH0000100": {
+          "status": 200,
+          "body": "file://JTHBA1BL3GH0000100.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBA1BL3GH0000110": {
+          "status": 200,
+          "body": "file://JTHBA1BL3GH0000110.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBA1BL3GH0000180": {
+          "status": 200,
+          "body": "file://JTHBA1BL3GH0000180.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        }
+      }
+    },
+    "useExamples": false,
+    "inputType": 1,
+    "openChectInput": false,
+    "encryptionEnabled": false,
+    "encryptionSetting": {
+      "mode": "AES/CBC/PKCS5Padding",
+      "aesKey": "032b8b0a090bae3c",
+      "aesIV": "032b8b0a090bae3c",
+      "rsaKey": "",
+      "charsetName": "utf-8",
+      "codecType": 1
+    },
+    "decryptionEnabled": false,
+    "decryptionSetting": {
+      "mode": "AES/CBC/PKCS5Padding",
+      "aesKey": "abcdefght1234567",
+      "aesIV": "abcdefght1234567",
+      "rsaKey": "",
+      "charsetName": "UTF-8",
+      "codecType": 1,
+      "errorResposne": {
+        "status": 200,
+        "body": "file://decryptionerror.json",
+        "defResponseFile": "defResponseFile",
+        "header": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  },
+  "IF_Name": "a2",
+  "IF_description": "获取保养预约订单/保养信息/已取消信息",
+  "defaultResposne": {
+    "status": 200,
+    "body": "file://IL10105.xml",
+    "defResponseFile": "defResponseFile",
+    "header": {
+      "Content-Type": "text/xml;charset=utf-8"
+    }
+  },
+  "examples": {
+    "body": [
+      "/SPML/RESULT/CODE"
+    ],
+    "formatStyle": 1,
+    "fileExtension": "json",
+    "examplesPath": "",
+    "header": [
+      "header_a",
+      "header_b"
+    ],
+    "parameters": [
+      "parameters_a",
+      "parameters_b"
+    ]
+  }
+}

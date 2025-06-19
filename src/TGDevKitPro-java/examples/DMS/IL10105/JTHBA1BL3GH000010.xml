@@ -1,0 +1,49 @@
+﻿<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:comprehensiveInfoResponse
+            xmlns:ns2="http://adapter-dms-elc-sit.dms.lexus.com.cn">
+            <EvaluateResult>
+                <Head>
+                    <MessageID>IL10105</MessageID>
+                    <TransmissionDate>2024/01/19 11:54:32</TransmissionDate>
+                </Head>
+                <Detail>
+                    <Result>
+                        <ResultId>000000</ResultId>
+                    </Result>
+                    <ApplyInfo>
+                        <DealerCode>L0201</DealerCode>
+                        <BranchCode>01</BranchCode>
+                        <RegNumber>京LD678U</RegNumber>
+                        <InspectCode>PI0005</InspectCode>
+                        <RegistDate>2024/1/22 13:00:00</RegistDate>
+                        <Defaultlength>15</Defaultlength>
+                        <IncomingState>2</IncomingState>
+                        <ConfirmState>1</ConfirmState>
+                        <Remarks>11111</Remarks>
+                        <UserID>99c988a8ae164147888bd16e05694fb3</UserID>
+                        <IsDinner>2</IsDinner>
+                        <IsCarWash>1</IsCarWash>
+                        <IsWait>1</IsWait>
+                    </ApplyInfo>
+                    <ServiceInInfo>
+                        <DealerCode>L0201</DealerCode>
+                        <BranchCode>01</BranchCode>
+                        <RegistDate>2024/2/04 16:02:43</RegistDate>
+                        <Mileage>10000</Mileage>
+                        <ServiceInCustName>免保1</ServiceInCustName>
+                        <ServiceStaffName>服务顾问</ServiceStaffName>
+                        <InspectCode>PI0003</InspectCode>
+                        <JobNo>SL0404003511</JobNo>
+                        <EvaluateState>1</EvaluateState>
+                        <Parts>
+                            <PartsCode>0446533480</PartsCode>
+                            <PartsName>前盘式制动摩擦片组件</PartsName>
+                        </Parts>
+                    </ServiceInInfo>
+                </Detail>
+            </EvaluateResult>
+        </ns2:comprehensiveInfoResponse>
+    </soap:Body>
+</soap:Envelope>

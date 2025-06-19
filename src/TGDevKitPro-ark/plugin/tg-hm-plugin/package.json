@@ -1,0 +1,39 @@
+{
+  "name": "tg-hm-plugin",
+  "version": "1.0.0",
+  "description": "鸿蒙 plugin",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/",
+    "./dist/",
+    "./tests/",
+    "*.zip",
+    "*.tgz"
+  ],
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "micromatch": "^4.0.8",
+    "ts-morph": "^23.0.0"
+  },
+  "devDependencies": {
+    "@ohos/hvigor": "^5.8.9",
+    "@ohos/hvigor-ohos-plugin": "^5.8.9",
+    "@types/chai": "^4.3.19",
+    "@types/ejs": "^3.1.5",
+    "@types/micromatch": "^4.0.9",
+    "@types/mocha": "^10.0.8",
+    "@types/node": "^20.16.6",
+    "chai": "^4.5.0",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.7.3",
+    "ts-node": "^10.9.2"
+  },
+  "license": "ISC"
+}

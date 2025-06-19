@@ -1,0 +1,121 @@
+{
+  "config" : {
+    "basePath":"",
+    "schemasVerificationEnabled": false,
+    "schemasSetting" : {
+      "header":[
+        {
+          "path":"x-id",
+          "format":"[0-9]+",
+          "type":"",
+          "errorResponse":{
+           "status" : 401,
+            "body" : "{\"asd\":\"x-id不对\"}",
+            "defResponseFile" : "defResponseFile",
+            "header" : {
+              "Content-Type" : "text/json;charset=utf-8"
+            }
+        }
+      }
+      ],
+      "parameter":[
+        {
+          "path":"aaaa",
+          "format":"[0-9]+",
+          "type":"",
+          "errorResponse":{
+           "status" : 401,
+            "body" : "{\"asd\":\"xaaaa不对\"}",
+            "defResponseFile" : "defResponseFile",
+            "header" : {
+              "Content-Type" : "text/json;charset=utf-8"
+            }
+        }
+      }
+      ],
+      "body":{
+        "optional":true
+      }
+    },
+    "schemasPath" : "",
+    "schemas" : "",
+    "errorResponsePath" : "",
+    "dynamicResponseEnabled": true,
+    "dynamicResponseSetting":{
+      "fileNameMax":128,
+      "bodyType":"json",
+      "parameters" : [],
+      "body" :  [
+            "$.vin"
+      ],
+      "header" : [
+      ],
+      "basePath" : "",
+      "dynamicResponse" :{
+        "12345678901234567":{ 
+          "status" : 200,
+          "body" : "{\"asd\":\"asdasd\"}",
+          "defResponseFile" : "defResponseFile",
+          "header" : {
+            "Content-Type" : "text/json;charset=utf-8"
+          }
+        }
+      }
+    },
+    "useExamples" : true,
+    "inputType" : 1,
+    "openCheckInput" : true,
+    "encryptionEnabled": false,
+    "encryptionSetting":{
+        "mode":"AES/ECB/PKCS5Padding",
+        "aesKey":"1234567890123456",
+        "aesIV":"",
+        "rsaKey":"",
+        "charsetName":"utf-8",
+        "codecType":1
+    },
+    "decryptionEnabled": false,
+    "decryptionSetting":{  
+        "mode":"AES/ECB/PKCS5Padding",
+        "aesKey":"1234567890123456",
+        "aesIV":"",
+        "rsaKey":"",
+        "charsetName":"UTF-8",
+        "codecType":1,
+        "errorResponse" : {
+          "status" : 401,
+          "body" : "{\"asd\":\"解密失败\"}",
+          "defResponseFile" : "defResponseFile",
+          "header" : {
+            "Content-Type" : "text/json;charset=utf-8"
+          }
+        }
+    }
+  },
+  "IF_Name" : "a2",
+  "IF_description" : "",
+  "defaultResponse" : {
+    "status" : 202,
+    "body" : "{\"asd\":\"bb撒打算大111\"}",
+    "defResponseFile" : "defResponseFile",
+    "header" : {
+      "Content-Type" : "text/json;charset=utf-8"
+    }
+  },
+  "examples" : {
+    "body" : [
+      "/SPML/RESULT/CODE"
+    ],
+    "formatStyle" : 1,
+    "fileExtension" : "json",
+    "examplesPath" : "",
+    "header" : [
+      "header_a",
+      "header_b"
+    ],
+    "parameters" : [
+      "parameters_a",
+      "parameters_b"
+    ]
+  }
+}

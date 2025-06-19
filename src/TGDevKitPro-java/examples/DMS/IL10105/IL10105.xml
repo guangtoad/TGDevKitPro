@@ -1,0 +1,77 @@
+﻿<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:comprehensiveInfoResponse xmlns:ns2="https://adapter-dms-elc.dms.lexus.com.cn">
+            <EvaluateResult>
+                <Head>
+                    <MessageID>IL10105</MessageID>
+                    <TransmissionDate>2024/07/20 15:18:24</TransmissionDate>
+                </Head>
+                <Detail>
+                    <Result>
+                        <ResultId>000000</ResultId>
+                    </Result>
+                    <ApplyInfo>
+                        <DealerCode>L0201</DealerCode>
+                        <BranchCode>01</BranchCode>
+                        <RegNumber>京N-XC617</RegNumber>
+                        <InspectCode>PI0003</InspectCode>
+                        <RegistDate>2024/7/21 15:07:00</RegistDate>
+                        <Defaultlength>180.00</Defaultlength>
+                        <IncomingState>0</IncomingState>
+                        <ConfirmState>0</ConfirmState>
+                        <Remarks>abc</Remarks>
+                        <UserID>a12a4329f8f54e37b24a4f2344b4f6c8</UserID>
+                        <IsDinner>2</IsDinner>
+                        <IsCarWash>0</IsCarWash>
+                        <IsWait>0</IsWait>
+                    </ApplyInfo>
+                    <ApplyInfo>
+                        <DealerCode>L0205</DealerCode>
+                        <BranchCode>01</BranchCode>
+                        <RegNumber>京N-XC617</RegNumber>
+                        <InspectCode>PI0003</InspectCode>
+                        <RegistDate>2024/7/21 15:07:00</RegistDate>
+                        <Defaultlength>180.00</Defaultlength>
+                        <IncomingState>0</IncomingState>
+                        <ConfirmState>0</ConfirmState>
+                        <Remarks>abc</Remarks>
+                        <UserID>a12a4329f8f54e37b24a4f2344b4f6c8</UserID>
+                        <IsDinner>2</IsDinner>
+                        <IsCarWash>0</IsCarWash>
+                        <IsWait>0</IsWait>
+                    </ApplyInfo>
+                    <ApplyInfo>
+                        <DealerCode>L0201</DealerCode>
+                        <BranchCode>01</BranchCode>
+                        <RegNumber>京A-H9819</RegNumber>
+                        <InspectCode>PI9999</InspectCode>
+                        <RegistDate>2024/7/22 15:07:00</RegistDate>
+                        <Defaultlength>60.00</Defaultlength>
+                        <IncomingState>0</IncomingState>
+                        <ConfirmState>0</ConfirmState>
+                        <Remarks>abc</Remarks>
+                        <UserID>a12a4329f8f54e37b24a4f2344b4f6c8</UserID>
+                        <IsDinner>2</IsDinner>
+                        <IsCarWash>0</IsCarWash>
+                        <IsWait>0</IsWait>
+                    </ApplyInfo>
+                    <ApplyInfo>
+                        <DealerCode>L0205</DealerCode>
+                        <BranchCode>01</BranchCode>
+                        <RegNumber>京A-H9819</RegNumber>
+                        <InspectCode>PI9999</InspectCode>
+                        <RegistDate>2024/7/22 15:07:00</RegistDate>
+                        <Defaultlength>60.00</Defaultlength>
+                        <IncomingState>0</IncomingState>
+                        <ConfirmState>0</ConfirmState>
+                        <Remarks>abc</Remarks>
+                        <UserID>a12a4329f8f54e37b24a4f2344b4f6c8</UserID>
+                        <IsDinner>2</IsDinner>
+                        <IsCarWash>0</IsCarWash>
+                        <IsWait>0</IsWait>
+                    </ApplyInfo>
+                </Detail>
+            </EvaluateResult>
+        </ns2:comprehensiveInfoResponse>
+    </soap:Body>
+</soap:Envelope>

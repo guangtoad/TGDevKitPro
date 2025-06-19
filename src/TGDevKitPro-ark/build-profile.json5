@@ -13,6 +13,42 @@
             "useNormalizedOHMUrl": true
           }
         }
+      },
+      {
+        "name": "development",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "beta",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "product",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
       }
     ],
     "buildModeSet": [
@@ -32,7 +68,28 @@
         {
           "name": "default",
           "applyToProducts": [
-            "default"
+            'default',
+          ]
+        },
+        {
+          "name": "development",
+          "applyToProducts": [
+            "default",
+            "development"
+          ]
+        },
+        {
+          "name": "beta",
+          "applyToProducts": [
+            "default",
+            "beta"
+          ]
+        },
+        {
+          "name": "product",
+          "applyToProducts": [
+            "default",
+            "product"
           ]
         }
       ]

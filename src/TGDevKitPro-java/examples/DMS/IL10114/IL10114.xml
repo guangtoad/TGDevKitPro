@@ -1,0 +1,297 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:appointmentStatusInfoResponse xmlns:ns2="https://adapter-dms-elc.dms.lexus.com.cn">
+            <AvailableTimeResult>
+                <Head>
+                    <MessageID>IL10114</MessageID>
+                    <TransmissionDate>2024/07/20 15:58:29</TransmissionDate>
+                </Head>
+                <Detail>
+                    <Result>
+                        <ResultId>000000</ResultId>
+                    </Result>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/21 08:00</AvailableTime>
+                        <IsReserved>0</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/21 09:00</AvailableTime>
+                        <IsReserved>0</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/21 10:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/21 11:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/21 12:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/21 13:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/21 14:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/21 15:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/21 16:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/21 17:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/22 08:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/22 09:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/22 10:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/22 11:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/22 12:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/22 13:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/22 14:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/22 15:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/22 16:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/22 17:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/23 08:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/23 09:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/23 10:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/23 11:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/23 12:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/23 13:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/23 14:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/23 15:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/23 16:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/23 17:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/24 08:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/24 09:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/24 10:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/24 11:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/24 12:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/24 13:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/24 14:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/24 15:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/24 16:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/24 17:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/25 08:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/25 09:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/25 10:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/25 11:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/25 12:00</AvailableTime>
+                        <IsReserved>0</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/25 13:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/25 14:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/25 15:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/25 16:00</AvailableTime>
+                        <IsReserved>0</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/25 17:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/26 08:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/26 09:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/26 10:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/26 11:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/26 12:00</AvailableTime>
+                        <IsReserved>0</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/26 13:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/26 14:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/26 15:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/26 16:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/26 17:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/27 08:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/27 09:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/27 10:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/27 11:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/27 12:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/27 13:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/27 14:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/27 15:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/27 16:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                    <AvailableTimes>
+                        <AvailableTime>2024/07/27 17:00</AvailableTime>
+                        <IsReserved>1</IsReserved>
+                    </AvailableTimes>
+                </Detail>
+            </AvailableTimeResult>
+        </ns2:appointmentStatusInfoResponse>
+    </soap:Body>
+</soap:Envelope>

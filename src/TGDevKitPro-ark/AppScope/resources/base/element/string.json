@@ -2,7 +2,47 @@
   "string": [
     {
       "name": "app_name",
-      "value": "TGDevKitPro_ark"
+      "value": "TGDevKitPro"
+    },
+    {
+      "name": "Used_to_find_and_match_Bluetooth",
+      "value": "用于查找和匹配蓝牙"
+    },
+    {
+      "name": "USED_SCENE_MICROPHONE",
+      "value": "麦克风"
+    },
+    {
+      "name": "USED_SCENE_LOCATION",
+      "value": "定位"
+    },
+    {
+      "name": "REASON_PERMISSION_APPROXIMATELY_LOCATION",
+      "value": "定位"
+    },
+    {
+      "name": "REASON_PERMISSION_LOCATION",
+      "value": "定位"
+    },
+    {
+      "name": "USED_SCENE_READ_CONTACTS",
+      "value": "通讯录"
+    },
+    {
+      "name": "USED_SCENE_CAMERA",
+      "value": "摄像头"
+    },
+    {
+      "name": "REASON_PERMISSION_MICROPHONE",
+      "value": "麦克风"
+    },
+    {
+      "name": "REASON_READ_IMAGE_VIDEO",
+      "value": "相册"
+    },
+    {
+      "name": "USED_SCENE_READ_HEALTH_DATA",
+      "value": "数据读取"
     }
   ]
 }

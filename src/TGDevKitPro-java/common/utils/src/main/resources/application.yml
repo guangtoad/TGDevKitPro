@@ -1,0 +1,17 @@
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8090
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+stubApi:
+  basepath: "/Users/toad/WorkSpace/ApiService/examples"
+  pathignore: "/StubIFServer"
+  encoding: "utf-8"
+  savetype: "file"
+  file:
+    type: "json"
+    maxlen: 128

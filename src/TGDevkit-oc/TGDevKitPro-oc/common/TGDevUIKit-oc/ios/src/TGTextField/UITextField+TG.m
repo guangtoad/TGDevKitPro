@@ -1,0 +1,13 @@
+//
+//  UITextField+TG.m
+//  WeiShop
+//
+//  Created by toad on 16/5/17.
+//  Copyright © 2016年 toad. All rights reserved.
+//
+
+#import "UITextField+TG.h"
+
+@implementation UITextField (TG)
+
+@end

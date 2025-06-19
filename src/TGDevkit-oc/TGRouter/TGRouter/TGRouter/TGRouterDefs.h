@@ -27,5 +27,7 @@ UIKIT_EXTERN const TGRouterKey _Nonnull TGRouter_Key_HidesBottomBar;
 UIKIT_EXTERN const TGRouterKey _Nonnull TGRouter_Key_Animated;
 UIKIT_EXTERN const TGRouterKey _Nonnull TGRouter_Key_Bundle;
 UIKIT_EXTERN const TGRouterKey _Nonnull TGRouter_Key_Pop;
+UIKIT_EXTERN const TGRouterKey _Nonnull TGRouter_Key_modalTransitionStyle;
+UIKIT_EXTERN const TGRouterKey _Nonnull TGRouter_Key_modalPresentationStyle;
 
 

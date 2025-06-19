@@ -1,0 +1,21 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:maintenanceInfoResponse xmlns:ns2="http://adapter-dms-elc-sit.dms.lexus.com.cn">
+            <EvaluateResult>
+                <Head>
+                    <MessageID>IL10106</MessageID>
+                    <TransmissionDate>2024/01/19 11:51:50</TransmissionDate>
+                </Head>
+                <Detail>
+                    <Result>
+                        <ResultId>000000</ResultId>
+                    </Result>
+					<Evaluate>
+						<InspectCode>PI0001</InspectCode>
+						<Defaultlength>15</Defaultlength>
+					</Evaluate>
+                </Detail>
+            </EvaluateResult>
+        </ns2:maintenanceInfoResponse>
+    </soap:Body>
+</soap:Envelope>

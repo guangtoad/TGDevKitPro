@@ -1,0 +1,13 @@
+tests
+src
+package
+node_modules
+.hvigor
+.idea
+main.ts
+.mocharc.js
+.editorconfig
+tslint.json
+tsconfig.json
+*.tgz
+*.sh

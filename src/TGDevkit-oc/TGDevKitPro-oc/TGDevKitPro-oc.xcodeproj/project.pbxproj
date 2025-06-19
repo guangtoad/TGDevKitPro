@@ -996,6 +996,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"en-AU",
 			);
 			mainGroup = 533918DE2DF933A2009DBB76;
 			minimizedProjectReferenceProxies = 1;

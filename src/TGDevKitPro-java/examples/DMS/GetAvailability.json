@@ -1,0 +1,342 @@
+﻿{
+  "config": {
+    "basePath": "",
+    "schemasVerificationEnabled": false,
+    "schemasSetting": {
+      "header": [
+        {
+          "path": "Content-type",
+          "format": "application/json",
+          "type": "",
+          "errorResponse": {
+            "status": 200,
+            "body": "file://ContenttypeError.json",
+            "defResponseFile": "defResponseFile",
+            "header": {
+              "Content-Type": "application/json"
+            }
+          }
+        }
+      ]
+    },
+    "schemasPath": "",
+    "schemas": "",
+    "errorResponsePath": "",
+    "dynamicResponseEnabled": true,
+    "dynamicResponseSetting": {
+      "fileNameMaxx": 128,
+      "bodyType": "json",
+      "parameters": [],
+      "body": [
+        "xpath:////OwnersID"
+      ],
+      "header": [],
+      "basePath": "",
+      "dynamicResponse": {
+        "VIN1": {
+          "status": 200,
+          "body": "file://VIN1.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "100Dhgcsgr01@": {
+          "status": 200,
+          "body": "file://100Dhgcsgr01@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "100Dhgcsqy01@": {
+          "status": 200,
+          "body": "file://100Dhgcsqy01@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021CCC81@": {
+          "status": 200,
+          "body": "file://L1021CCC81@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021CCC94@": {
+          "status": 200,
+          "body": "file://L1021CCC94@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021CCCC5@": {
+          "status": 200,
+          "body": "file://L1021CCCC5@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH265@": {
+          "status": 200,
+          "body": "file://L1021HH265@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH266@": {
+          "status": 200,
+          "body": "file://L1021HH266@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH267@": {
+          "status": 200,
+          "body": "file://L1021HH267@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH268@": {
+          "status": 200,
+          "body": "file://L1021HH268@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "100Dhgcsqy10@": {
+          "status": 200,
+          "body": "file://100Dhgcsqy10@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH296@": {
+          "status": 200,
+          "body": "file://L1021HH296@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH299@": {
+          "status": 200,
+          "body": "file://L1021HH299@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH400@": {
+          "status": 200,
+          "body": "file://L1021HH400@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH401@": {
+          "status": 200,
+          "body": "file://L1021HH401@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HHH32@": {
+          "status": 200,
+          "body": "file://L1021HHH32@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HHH33@": {
+          "status": 200,
+          "body": "file://L1021HHH33@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "hzwsmz001@": {
+          "status": 200,
+          "body": "file://hzwsmz001@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HHH15@": {
+          "status": 200,
+          "body": "file://L1021HHH15@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "Hfyqyzdh01@": {
+          "status": 200,
+          "body": "file://Hfyqyzdh01@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH423@": {
+          "status": 200,
+          "body": "file://L1021HH423@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH424@": {
+          "status": 200,
+          "body": "file://L1021HH424@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH425@": {
+          "status": 200,
+          "body": "file://L1021HH425@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH433@": {
+          "status": 200,
+          "body": "file://L1021HH433@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH434@": {
+          "status": 200,
+          "body": "file://L1021HH434@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH435@": {
+          "status": 200,
+          "body": "file://L1021HH435@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH436@": {
+          "status": 200,
+          "body": "file://L1021HH436@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH437@": {
+          "status": 200,
+          "body": "file://L1021HH437@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH438@": {
+          "status": 200,
+          "body": "file://L1021HH438@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH439@": {
+          "status": 200,
+          "body": "file://L1021HH439@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "L1021HH440@": {
+          "status": 200,
+          "body": "file://L1021HH440@.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        }
+      }
+    },
+    "useExamples": false,
+    "inputType": 1,
+    "openChectInput": false,
+    "encryptionEnabled": false,
+    "encryptionSetting": {
+      "mode": "AES/CBC/PKCS5Padding",
+      "aesKey": "032b8b0a090bae3c",
+      "aesIV": "032b8b0a090bae3c",
+      "rsaKey": "",
+      "charsetName": "utf-8",
+      "codecType": 1
+    },
+    "decryptionEnabled": false,
+    "decryptionSetting": {
+      "mode": "AES/CBC/PKCS5Padding",
+      "aesKey": "abcdefght1234567",
+      "aesIV": "abcdefght1234567",
+      "rsaKey": "",
+      "charsetName": "UTF-8",
+      "codecType": 1,
+      "errorResposne": {
+        "status": 200,
+        "body": "file://decryptionerror.json",
+        "defResponseFile": "defResponseFile",
+        "header": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  },
+  "IF_Name": "a2",
+  "IF_description": "契约状态查询stub",
+  "defaultResposne": {
+    "status": 200,
+    "body": "file://GetAvailability.xml",
+    "defResponseFile": "defResponseFile",
+    "header": {
+      "Content-Type": "text/xml;charset=utf-8"
+    }
+  },
+  "examples": {
+    "body": [
+      "/SPML/RESULT/CODE"
+    ],
+    "formatStyle": 1,
+    "fileExtension": "json",
+    "examplesPath": "",
+    "header": [
+      "header_a",
+      "header_b"
+    ],
+    "parameters": [
+      "parameters_a",
+      "parameters_b"
+    ]
+  }
+}

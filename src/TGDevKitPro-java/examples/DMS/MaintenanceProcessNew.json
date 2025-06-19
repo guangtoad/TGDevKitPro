@@ -1,0 +1,171 @@
+{
+  "config" : {
+    "basePath":"",
+    "schemasVerificationEnabled": false,
+    "schemasStting" : {
+      "header":[
+        {
+          "path":"x-id",
+          "format":"DDSXID",
+          "type":"",
+          "errorResponse":{
+            "status" : 400,
+            "body" : "file://4P03002.json",
+            "defResponseFile" : "defResponseFile",
+            "header" : {
+              "Content-Type" : "text/json;charset=utf-8"
+            }
+          }
+        },
+        {
+          "path":"x-pass",
+          "format":"DDSXPASS",
+          "type":"",
+          "errorResponse":{
+            "status" : 400,
+            "body" : "file://4P03002.json",
+            "defResponseFile" : "defResponseFile",
+            "header" : {
+              "Content-Type" : "text/json;charset=utf-8"
+            }
+          }
+        }
+      ]
+    },
+    "schemasPath" : "",
+    "schemas" : "",
+    "errorResponsePath" : "",
+    "dynamicResponseEnabled": true,
+    "dynamicResponseSetting":{
+      "fileNameMaxx":128,
+      "bodyType":"json",
+      "parameters" : [],
+      "body": [
+        "xpath:////Vin"
+      ],
+      "header": [],
+      "basePath": "",
+      "dynamicResponse": {
+        "JTHBT1GG7G2039173eLCAPP": {
+          "status": 200,
+          "body": "file://JTHBT1GG7G2039173eLCAPP.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBYLFF7M5016069eLCAPP": {
+          "status": 200,
+          "body": "file://JTHBYLFF7M5016069eLCAPP.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHCBAAD5Y5000974eLCAPP": {
+          "status": 200,
+          "body": "file://JTHCBAAD5Y5000974eLCAPP.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHKR5BH3E2217843eLCAPP": {
+          "status": 200,
+          "body": "file://JTHKR5BH3E2217843eLCAPP.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBN36FX65046154eLCAPP": {
+          "status": 200,
+          "body": "file://JTHBN36FX65046154eLCAPP.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBA1BL3GH000010eLCAPP": {
+          "status": 200,
+          "body": "file://JTHBA1BL3GH000010eLCAPP.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBA1BL3GH000011eLCAPP": {
+          "status": 200,
+          "body": "file://JTHBA1BL3GH000011eLCAPP.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        },
+        "JTHBA1BL3GH000018eLCAPP": {
+          "status": 200,
+          "body": "file://JTHBA1BL3GH000018eLCAPP.xml",
+          "defResponseFile": "defResponseFile",
+          "header": {
+            "Content-Type": "text/xml;charset=utf-8"
+          }
+        }
+      }
+    },
+    "useExamples" : true,
+    "inputType" : 1,
+    "openChectInput" : true,
+    "encryptionEnabled": false,
+    "encryptionSetting":{
+        "mode":"AES/CBC/PKCS5Padding",
+        "aesKey":"032b8b0a090bae3c",
+        "aesIV":"032b8b0a090bae3c",
+        "rsaKey":"",
+        "charsetName":"utf-8",
+        "codecType":1
+    },
+    "decryptionEnabled": false,
+    "decryptionSetting":{  
+        "mode":"AES/CBC/PKCS5Padding",
+        "aesKey":"032b8b0a090bae3c",
+        "aesIV":"032b8b0a090bae3c",
+        "rsaKey":"",
+        "charsetName":"UTF-8",
+        "codecType":1,
+        "errorResposne" : {
+          "status" : 200,
+          "body" : "file://4P03001.json",
+          "defResponseFile" : "defResponseFile",
+          "header" : {
+            "Content-Type" : "text/json;charset=utf-8"
+          }
+        }
+    }
+  },
+  "IF_Name" : "a2",
+  "IF_description" : "获取保养进程状态",
+  "defaultResposne" : {
+    "status" : 200,
+    "body" : "file://MaintenanceProcessNew.xml",
+    "defResponseFile" : "defResponseFile",
+    "header" : {
+      "Content-Type" : "text/xml;charset=utf-8"
+    }
+  },
+  "examples" : {
+    "body" : [
+      "/SPML/RESULT/CODE"
+    ],
+    "formatStyle" : 1,
+    "fileExtension" : "json",
+    "examplesPath" : "",
+    "header" : [
+      "header_a",
+      "header_b"
+    ],
+    "parameters" : [
+      "parameters_a",
+      "parameters_b"
+    ]
+  }
+}

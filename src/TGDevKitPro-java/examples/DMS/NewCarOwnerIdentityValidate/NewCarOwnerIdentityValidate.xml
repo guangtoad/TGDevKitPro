@@ -1,0 +1,18 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:validateLoginInfoResponse xmlns:ns2="http://adapter-dms-elc-sit.dms.lexus.com.cn">
+            <VerificationResult>
+                <Head>
+                    <MessageID>IL10111</MessageID>
+                    <TransmissionDate>2005/6/23 10:40:44</TransmissionDate>
+                </Head>
+                <Detail>
+                    <Result>
+                        <ResultId>000000</ResultId>
+                        <Vin>JTHCBAAD5Y5000974</Vin>
+                    </Result>
+                </Detail>
+            </VerificationResult>
+        </ns2:validateLoginInfoResponse>
+    </soap:Body>
+</soap:Envelope>

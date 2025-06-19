@@ -27,5 +27,9 @@ const TGRouterKey TGRouter_Key_HidesBottomBar = @"hidesBottomBar";
 const TGRouterKey TGRouter_Key_Animated = @"animated";
 /** */
 const TGRouterKey TGRouter_Key_Bundle = @"bundle";
+/** */
+const TGRouterKey TGRouter_Key_modalTransitionStyle = @"modalTransitionStyle";
+/** */
+const TGRouterKey TGRouter_Key_modalPresentationStyle = @"modalPresentationStyle";
 
 
