@@ -1,0 +1,35 @@
+debug: false
+
+# 项目相关配置
+toolsServer:
+  # 名称
+  name: Toolsweb
+  # 版本
+  version: 0.0.0
+  # 实例演示开关
+  demoEnabled: true
+  # 获取ip地址开关
+  addressEnabled: true
+
+# 服务器配置
+server:
+  port: 7078
+  servlet:
+    # contextPath
+    context-path: /
+  tomcat:
+    # tomcat URI
+    uri-encoding: UTF-8
+    max-threads: 800
+    min-spare-threads: 30
+
+    # 资源信息
+# spring 配置
+#spring:
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://192.168.1.121:3306/tgweb?useSSL=false
+#    username: toad
+#    password: 123456
+#    driver-class-name: com.mysql.cj.jdbc.Driver

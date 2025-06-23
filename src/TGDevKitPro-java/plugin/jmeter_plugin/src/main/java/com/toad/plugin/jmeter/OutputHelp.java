@@ -1,4 +1,4 @@
-package com.toad.java.util;
+package com.toad.plugin.jmeter;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-import com.opencsv.CSVWriter;
+//import com.opencsv.CSVWriter;
 
 //import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 
@@ -49,27 +49,27 @@ public class OutputHelp {
     }
 
     public void saveToFile(String fileName,final List<String[]> data){
-        CSVWriter writer = null;
-        try {
-            // 创建文件所在目录
-            FileOutputStream fileOutputStream = new FileOutputStream(fileName);
-            fileOutputStream.write(0xef); //加上这句话
-            fileOutputStream.write(0xbb); //加上这句话
-            fileOutputStream.write(0xbf); //加上这句话
-            writer = new CSVWriter(new OutputStreamWriter(fileOutputStream, StandardCharsets.UTF_8.name()), CSVWriter.DEFAULT_SEPARATOR, CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END);
-            writer.writeAll(data);
-        } catch (Exception e) {
-            System.out.println("将数据写入CSV出错："+e);
-        } finally {
-            if (null != writer) {
-                try {
-                    writer.flush();
-                    writer.close();
-                } catch (IOException e) {
-                    System.out.println("关闭文件输出流出错："+e);
-                }
-            }
-        }
+//        CSVWriter writer = null;
+//        try {
+//            // 创建文件所在目录
+//            FileOutputStream fileOutputStream = new FileOutputStream(fileName);
+//            fileOutputStream.write(0xef); //加上这句话
+//            fileOutputStream.write(0xbb); //加上这句话
+//            fileOutputStream.write(0xbf); //加上这句话
+//            writer = new CSVWriter(new OutputStreamWriter(fileOutputStream, StandardCharsets.UTF_8.name()), CSVWriter.DEFAULT_SEPARATOR, CSVWriter.NO_QUOTE_CHARACTER, CSVWriter.DEFAULT_ESCAPE_CHARACTER, CSVWriter.DEFAULT_LINE_END);
+//            writer.writeAll(data);
+//        } catch (Exception e) {
+//            System.out.println("将数据写入CSV出错："+e);
+//        } finally {
+//            if (null != writer) {
+//                try {
+//                    writer.flush();
+//                    writer.close();
+//                } catch (IOException e) {
+//                    System.out.println("关闭文件输出流出错："+e);
+//                }
+//            }
+//        }
     }
 
     public String getCSVTxt(){

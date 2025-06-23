@@ -1,4 +1,4 @@
-package com.toad.jmeter.util;
+package com.toad.plugin.jmeter;
 
 public class TGJmeter {
 

@@ -8,6 +8,7 @@ Desktop.ini
 
 # Xcode
 *.xcworkspace/
+*.xcuserdatad/
 DerivedData/
 
 # VSCode

@@ -1,4 +1,4 @@
-package com.toad.java.util.jmeter.samplers;
+package com.toad.plugin.jmeter.samplers;
 
 import org.apache.jmeter.protocol.java.sampler.AbstractJavaSamplerClient;
 import org.apache.jmeter.protocol.java.sampler.JavaSamplerContext;

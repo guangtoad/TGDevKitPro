@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  TGCodeRows
+
+  Created by toad on 2022/05/10.
+  
+*/
+
+// 代码文件数
+"codeFiles:" = "codeFiles: %ld";
+// 代码行数
+"codeRows:" = "codeRows: %ld";

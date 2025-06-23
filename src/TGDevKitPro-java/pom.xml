@@ -172,6 +172,17 @@
                 <artifactId>fastjson2</artifactId>
                 <version>2.0.57</version>
             </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>2.15.2</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.fasterxml.jackson.core</groupId>
+                        <artifactId>jackson-core</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
             <!-- json Schema	-->
             <dependency>
                 <groupId>com.github.fge</groupId>
@@ -351,6 +362,17 @@
                 <artifactId>bsf-all</artifactId>
                 <version>3.0-beta3</version>
             </dependency>
+            <dependency>
+                <groupId>com.github.java-json-tools</groupId>
+                <artifactId>json-schema-validator</artifactId>
+                <version>2.2.14</version>
+            </dependency>
+            <!-- SAAJ API (javax.xml.soap 包) -->
+            <dependency>
+                <groupId>jakarta.xml.soap</groupId>
+                <artifactId>jakarta.xml.soap-api</artifactId>
+                <version>3.0.0</version> <!-- 可使用最新版本 -->
+            </dependency>
             <!-- junit 相关 begin-->
             <!--  junit-jupiter-api 里有 @BeforeAll……等注解  -->
             <dependency>
@@ -367,6 +389,7 @@
                 <scope>test</scope>
             </dependency>
             <!-- junit 相关 end-->
+
         </dependencies>
     </dependencyManagement>
 
@@ -379,11 +402,14 @@
         <module>features/diff</module>
         <module>features/command</module>
         <module>features/tg-utils</module>
+        <module>features/DevKitPro-web</module>
+        <module>features/DevKitPro-Gateway</module>
         <module>plugin/jmeter_plugin</module>
         <module>products/quote2schedule</module>
         <module>products/DevKitPro-server</module>
         <module>products/tg_app</module>
-        <module>products/DevKitPro-web</module>
+        <module>features/DevKit-Mockapi</module>
+        <module>features/DevKitPro-MockApi</module>
     </modules>
 
     <repositories>

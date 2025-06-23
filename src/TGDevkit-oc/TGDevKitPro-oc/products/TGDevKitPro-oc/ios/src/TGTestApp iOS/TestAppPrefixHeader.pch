@@ -1,0 +1,13 @@
+//
+//  TestAppPrefixHeader.pch
+//  TGTestApp iOS
+//
+//  Created by toad on 2022/07/25.
+//
+
+#ifndef TestAppPrefixHeader_pch
+#define TestAppPrefixHeader_pch
+
+#import "BaseUIKit.h"
+
+#endif /* TestAppPrefixHeader_pch */

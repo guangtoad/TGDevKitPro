@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E63528741A10827F9A1A819 /* Pods_TGCodeRows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B5133E99F67D655AF521CF /* Pods_TGCodeRows.framework */; };
+		531F544B282A67F5002D10E6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 531F544D282A67F5002D10E6 /* Localizable.strings */; };
+		531F5454282BCA29002D10E6 /* TGFileList.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F5453282BCA29002D10E6 /* TGFileList.m */; };
+		531F5458282BCE3B002D10E6 /* RowsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F5457282BCE3B002D10E6 /* RowsMainViewController.m */; };
+		5325687E283DFE1B00A1249A /* TGFileItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5325687D283DFE1B00A1249A /* TGFileItem.m */; };
+		53256881283DFE5D00A1249A /* TGFileRowInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 53256880283DFE5D00A1249A /* TGFileRowInfo.m */; };
+		533BEB1A289BEA1300508777 /* EditInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 533BEB19289BEA1300508777 /* EditInfoCell.m */; };
+		5350C8332829192300603059 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 5350C8322829192300603059 /* Preferences.m */; };
+		5350C839282A206E00603059 /* APPConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5350C838282A206E00603059 /* APPConfig.m */; };
+		538A1865289CE086004391BB /* TGRowWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538A1864289CE086004391BB /* TGRowWindowController.m */; };
+		53E36A9D282624DB006E656D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E36A9C282624DB006E656D /* AppDelegate.m */; };
+		53E36AA0282624DB006E656D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E36A9F282624DB006E656D /* ViewController.m */; };
+		53E36AA3282624DB006E656D /* TGCodeRows.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53E36AA1282624DB006E656D /* TGCodeRows.xcdatamodeld */; };
+		53E36AA5282624DC006E656D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E36AA4282624DC006E656D /* Assets.xcassets */; };
+		53E36AA8282624DC006E656D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E36AA6282624DC006E656D /* Main.storyboard */; };
+		53E36AAA282624DC006E656D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E36AA9282624DC006E656D /* main.m */; };
+		53E36AB5282624DC006E656D /* TGCodeRowsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E36AB4282624DC006E656D /* TGCodeRowsTests.m */; };
+		53E36ABF282624DC006E656D /* TGCodeRowsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E36ABE282624DC006E656D /* TGCodeRowsUITests.m */; };
+		53E36AC1282624DC006E656D /* TGCodeRowsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E36AC0282624DC006E656D /* TGCodeRowsUITestsLaunchTests.m */; };
+		53E36ACF28262546006E656D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53E36ACE28262546006E656D /* Localizable.strings */; };
+		53E36AD628263245006E656D /* DragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E36AD528263245006E656D /* DragDropView.m */; };
+		A18E9CB676DC116DAFF82B42 /* Pods_TGCodeRowsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A3278464FF776B5EE6109E /* Pods_TGCodeRowsTests.framework */; };
+		F192271E732B9E46B55381D6 /* Pods_TGCodeRows_TGCodeRowsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBE884FF133A32B5149F257 /* Pods_TGCodeRows_TGCodeRowsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53E36AB1282624DC006E656D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53E36A90282624DB006E656D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53E36A97282624DB006E656D;
+			remoteInfo = TGCodeRows;
+		};
+		53E36ABB282624DC006E656D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53E36A90282624DB006E656D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53E36A97282624DB006E656D;
+			remoteInfo = TGCodeRows;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074AC33A22942D0E087BA10F /* Pods-TGCodeRows-TGCodeRowsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCodeRows-TGCodeRowsUITests.debug.xcconfig"; path = "Target Support Files/Pods-TGCodeRows-TGCodeRowsUITests/Pods-TGCodeRows-TGCodeRowsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1887E36829F3A08345ACCEFC /* Pods-TGCodeRows-TGCodeRowsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCodeRows-TGCodeRowsUITests.release.xcconfig"; path = "Target Support Files/Pods-TGCodeRows-TGCodeRowsUITests/Pods-TGCodeRows-TGCodeRowsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36B5133E99F67D655AF521CF /* Pods_TGCodeRows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGCodeRows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EFE88BCCDAFF126D88B81DF /* Pods-TGCodeRowsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCodeRowsTests.release.xcconfig"; path = "Target Support Files/Pods-TGCodeRowsTests/Pods-TGCodeRowsTests.release.xcconfig"; sourceTree = "<group>"; };
+		42A3278464FF776B5EE6109E /* Pods_TGCodeRowsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGCodeRowsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531F544C282A67F5002D10E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		531F544E282A692C002D10E6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		531F544F282A692C002D10E6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		531F5452282BCA29002D10E6 /* TGFileList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGFileList.h; sourceTree = "<group>"; };
+		531F5453282BCA29002D10E6 /* TGFileList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGFileList.m; sourceTree = "<group>"; };
+		531F5457282BCE3B002D10E6 /* RowsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowsMainViewController.m; sourceTree = "<group>"; };
+		5325687C283DFE1B00A1249A /* TGFileItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGFileItem.h; sourceTree = "<group>"; };
+		5325687D283DFE1B00A1249A /* TGFileItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGFileItem.m; sourceTree = "<group>"; };
+		5325687F283DFE5D00A1249A /* TGFileRowInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGFileRowInfo.h; sourceTree = "<group>"; };
+		53256880283DFE5D00A1249A /* TGFileRowInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGFileRowInfo.m; sourceTree = "<group>"; };
+		533BEB18289BEA1300508777 /* EditInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditInfoCell.h; sourceTree = "<group>"; };
+		533BEB19289BEA1300508777 /* EditInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditInfoCell.m; sourceTree = "<group>"; };
+		5350C8312829192300603059 /* Preferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		5350C8322829192300603059 /* Preferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+		5350C834282A13CF00603059 /* TGCodeRows-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TGCodeRows-Bridging-Header.h"; sourceTree = "<group>"; };
+		5350C837282A206E00603059 /* APPConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPConfig.h; sourceTree = "<group>"; };
+		5350C838282A206E00603059 /* APPConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPConfig.m; sourceTree = "<group>"; };
+		538A1863289CE086004391BB /* TGRowWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRowWindowController.h; sourceTree = "<group>"; };
+		538A1864289CE086004391BB /* TGRowWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRowWindowController.m; sourceTree = "<group>"; };
+		53E36A98282624DB006E656D /* TGCodeRows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGCodeRows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E36A9B282624DB006E656D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53E36A9C282624DB006E656D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53E36A9E282624DB006E656D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53E36A9F282624DB006E656D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53E36AA2282624DB006E656D /* TGCodeRows.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TGCodeRows.xcdatamodel; sourceTree = "<group>"; };
+		53E36AA4282624DC006E656D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53E36AA7282624DC006E656D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53E36AA9282624DC006E656D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53E36AAB282624DC006E656D /* TGCodeRows.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TGCodeRows.entitlements; sourceTree = "<group>"; };
+		53E36AB0282624DC006E656D /* TGCodeRowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGCodeRowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E36AB4282624DC006E656D /* TGCodeRowsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGCodeRowsTests.m; sourceTree = "<group>"; };
+		53E36ABA282624DC006E656D /* TGCodeRowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGCodeRowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E36ABE282624DC006E656D /* TGCodeRowsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGCodeRowsUITests.m; sourceTree = "<group>"; };
+		53E36AC0282624DC006E656D /* TGCodeRowsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGCodeRowsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		53E36ACE28262546006E656D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		53E36AD1282625A9006E656D /* RowsMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RowsMainViewController.h; sourceTree = "<group>"; };
+		53E36AD428263245006E656D /* DragDropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragDropView.h; sourceTree = "<group>"; };
+		53E36AD528263245006E656D /* DragDropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropView.m; sourceTree = "<group>"; };
+		878DD3578E36F2E736737DF6 /* Pods-TGCodeRowsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCodeRowsTests.debug.xcconfig"; path = "Target Support Files/Pods-TGCodeRowsTests/Pods-TGCodeRowsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D1CD589266E6F49198113BE /* Pods-TGCodeRows.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCodeRows.debug.xcconfig"; path = "Target Support Files/Pods-TGCodeRows/Pods-TGCodeRows.debug.xcconfig"; sourceTree = "<group>"; };
+		8F99A5EF16B95B2EBBAFB1F4 /* Pods-TGCodeRows.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCodeRows.release.xcconfig"; path = "Target Support Files/Pods-TGCodeRows/Pods-TGCodeRows.release.xcconfig"; sourceTree = "<group>"; };
+		FEBE884FF133A32B5149F257 /* Pods_TGCodeRows_TGCodeRowsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGCodeRows_TGCodeRowsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E36A95282624DB006E656D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E63528741A10827F9A1A819 /* Pods_TGCodeRows.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E36AAD282624DC006E656D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18E9CB676DC116DAFF82B42 /* Pods_TGCodeRowsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E36AB7282624DC006E656D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F192271E732B9E46B55381D6 /* Pods_TGCodeRows_TGCodeRowsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05303C723C4978004D19ADEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36B5133E99F67D655AF521CF /* Pods_TGCodeRows.framework */,
+				FEBE884FF133A32B5149F257 /* Pods_TGCodeRows_TGCodeRowsUITests.framework */,
+				42A3278464FF776B5EE6109E /* Pods_TGCodeRowsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53E36A8F282624DB006E656D = {
+			isa = PBXGroup;
+			children = (
+				53E36A9A282624DB006E656D /* TGCodeRows */,
+				53E36AB3282624DC006E656D /* TGCodeRowsTests */,
+				53E36ABD282624DC006E656D /* TGCodeRowsUITests */,
+				53E36A99282624DB006E656D /* Products */,
+				C011525507375ADD51F6F366 /* Pods */,
+				05303C723C4978004D19ADEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53E36A99282624DB006E656D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E36A98282624DB006E656D /* TGCodeRows.app */,
+				53E36AB0282624DC006E656D /* TGCodeRowsTests.xctest */,
+				53E36ABA282624DC006E656D /* TGCodeRowsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E36A9A282624DB006E656D /* TGCodeRows */ = {
+			isa = PBXGroup;
+			children = (
+				53E36AD028262573006E656D /* Appliction */,
+				53E36ACD28262531006E656D /* Resources */,
+				53E36AA9282624DC006E656D /* main.m */,
+			);
+			path = TGCodeRows;
+			sourceTree = "<group>";
+		};
+		53E36AB3282624DC006E656D /* TGCodeRowsTests */ = {
+			isa = PBXGroup;
+			children = (
+				53E36AB4282624DC006E656D /* TGCodeRowsTests.m */,
+			);
+			path = TGCodeRowsTests;
+			sourceTree = "<group>";
+		};
+		53E36ABD282624DC006E656D /* TGCodeRowsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53E36ABE282624DC006E656D /* TGCodeRowsUITests.m */,
+				53E36AC0282624DC006E656D /* TGCodeRowsUITestsLaunchTests.m */,
+			);
+			path = TGCodeRowsUITests;
+			sourceTree = "<group>";
+		};
+		53E36ACD28262531006E656D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53E36AAB282624DC006E656D /* TGCodeRows.entitlements */,
+				53E36AA1282624DB006E656D /* TGCodeRows.xcdatamodeld */,
+				53E36AA4282624DC006E656D /* Assets.xcassets */,
+				53E36ACE28262546006E656D /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53E36AD028262573006E656D /* Appliction */ = {
+			isa = PBXGroup;
+			children = (
+				5350C837282A206E00603059 /* APPConfig.h */,
+				5350C838282A206E00603059 /* APPConfig.m */,
+				53E36A9B282624DB006E656D /* AppDelegate.h */,
+				53E36A9C282624DB006E656D /* AppDelegate.m */,
+				53E36AD428263245006E656D /* DragDropView.h */,
+				53E36AD528263245006E656D /* DragDropView.m */,
+				533BEB18289BEA1300508777 /* EditInfoCell.h */,
+				533BEB19289BEA1300508777 /* EditInfoCell.m */,
+				531F544D282A67F5002D10E6 /* Localizable.strings */,
+				53E36AA6282624DC006E656D /* Main.storyboard */,
+				5350C8312829192300603059 /* Preferences.h */,
+				5350C8322829192300603059 /* Preferences.m */,
+				53E36AD1282625A9006E656D /* RowsMainViewController.h */,
+				531F5457282BCE3B002D10E6 /* RowsMainViewController.m */,
+				5350C834282A13CF00603059 /* TGCodeRows-Bridging-Header.h */,
+				5325687C283DFE1B00A1249A /* TGFileItem.h */,
+				5325687D283DFE1B00A1249A /* TGFileItem.m */,
+				531F5452282BCA29002D10E6 /* TGFileList.h */,
+				531F5453282BCA29002D10E6 /* TGFileList.m */,
+				5325687F283DFE5D00A1249A /* TGFileRowInfo.h */,
+				53256880283DFE5D00A1249A /* TGFileRowInfo.m */,
+				53E36A9E282624DB006E656D /* ViewController.h */,
+				53E36A9F282624DB006E656D /* ViewController.m */,
+				538A1863289CE086004391BB /* TGRowWindowController.h */,
+				538A1864289CE086004391BB /* TGRowWindowController.m */,
+			);
+			path = Appliction;
+			sourceTree = "<group>";
+		};
+		C011525507375ADD51F6F366 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D1CD589266E6F49198113BE /* Pods-TGCodeRows.debug.xcconfig */,
+				8F99A5EF16B95B2EBBAFB1F4 /* Pods-TGCodeRows.release.xcconfig */,
+				074AC33A22942D0E087BA10F /* Pods-TGCodeRows-TGCodeRowsUITests.debug.xcconfig */,
+				1887E36829F3A08345ACCEFC /* Pods-TGCodeRows-TGCodeRowsUITests.release.xcconfig */,
+				878DD3578E36F2E736737DF6 /* Pods-TGCodeRowsTests.debug.xcconfig */,
+				3EFE88BCCDAFF126D88B81DF /* Pods-TGCodeRowsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53E36A97282624DB006E656D /* TGCodeRows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E36AC4282624DC006E656D /* Build configuration list for PBXNativeTarget "TGCodeRows" */;
+			buildPhases = (
+				72CBB5680DBDDD0714970926 /* [CP] Check Pods Manifest.lock */,
+				53E36A94282624DB006E656D /* Sources */,
+				53E36A95282624DB006E656D /* Frameworks */,
+				53E36A96282624DB006E656D /* Resources */,
+				38C30D13FA0D903E2CB387C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGCodeRows;
+			productName = TGCodeRows;
+			productReference = 53E36A98282624DB006E656D /* TGCodeRows.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53E36AAF282624DC006E656D /* TGCodeRowsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E36AC7282624DC006E656D /* Build configuration list for PBXNativeTarget "TGCodeRowsTests" */;
+			buildPhases = (
+				610A4799C57BE7A1969CC245 /* [CP] Check Pods Manifest.lock */,
+				53E36AAC282624DC006E656D /* Sources */,
+				53E36AAD282624DC006E656D /* Frameworks */,
+				53E36AAE282624DC006E656D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53E36AB2282624DC006E656D /* PBXTargetDependency */,
+			);
+			name = TGCodeRowsTests;
+			productName = TGCodeRowsTests;
+			productReference = 53E36AB0282624DC006E656D /* TGCodeRowsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53E36AB9282624DC006E656D /* TGCodeRowsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E36ACA282624DC006E656D /* Build configuration list for PBXNativeTarget "TGCodeRowsUITests" */;
+			buildPhases = (
+				114BFAC25153297C86A4704E /* [CP] Check Pods Manifest.lock */,
+				53E36AB6282624DC006E656D /* Sources */,
+				53E36AB7282624DC006E656D /* Frameworks */,
+				53E36AB8282624DC006E656D /* Resources */,
+				C4A11328DE6A95C24BF65D20 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53E36ABC282624DC006E656D /* PBXTargetDependency */,
+			);
+			name = TGCodeRowsUITests;
+			productName = TGCodeRowsUITests;
+			productReference = 53E36ABA282624DC006E656D /* TGCodeRowsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53E36A90282624DB006E656D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					53E36A97282624DB006E656D = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+					53E36AAF282624DC006E656D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 53E36A97282624DB006E656D;
+					};
+					53E36AB9282624DC006E656D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 53E36A97282624DB006E656D;
+					};
+				};
+			};
+			buildConfigurationList = 53E36A93282624DB006E656D /* Build configuration list for PBXProject "TGCodeRows" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 53E36A8F282624DB006E656D;
+			productRefGroup = 53E36A99282624DB006E656D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E36A97282624DB006E656D /* TGCodeRows */,
+				53E36AAF282624DC006E656D /* TGCodeRowsTests */,
+				53E36AB9282624DC006E656D /* TGCodeRowsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53E36A96282624DB006E656D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531F544B282A67F5002D10E6 /* Localizable.strings in Resources */,
+				53E36AA5282624DC006E656D /* Assets.xcassets in Resources */,
+				53E36ACF28262546006E656D /* Localizable.strings in Resources */,
+				53E36AA8282624DC006E656D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E36AAE282624DC006E656D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E36AB8282624DC006E656D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		114BFAC25153297C86A4704E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGCodeRows-TGCodeRowsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C30D13FA0D903E2CB387C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGCodeRows/Pods-TGCodeRows-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGCodeRows/Pods-TGCodeRows-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGCodeRows/Pods-TGCodeRows-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		610A4799C57BE7A1969CC245 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGCodeRowsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72CBB5680DBDDD0714970926 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGCodeRows-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A11328DE6A95C24BF65D20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGCodeRows-TGCodeRowsUITests/Pods-TGCodeRows-TGCodeRowsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGCodeRows-TGCodeRowsUITests/Pods-TGCodeRows-TGCodeRowsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGCodeRows-TGCodeRowsUITests/Pods-TGCodeRows-TGCodeRowsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E36A94282624DB006E656D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E36AA0282624DB006E656D /* ViewController.m in Sources */,
+				53E36A9D282624DB006E656D /* AppDelegate.m in Sources */,
+				53256881283DFE5D00A1249A /* TGFileRowInfo.m in Sources */,
+				531F5458282BCE3B002D10E6 /* RowsMainViewController.m in Sources */,
+				53E36AAA282624DC006E656D /* main.m in Sources */,
+				5350C8332829192300603059 /* Preferences.m in Sources */,
+				53E36AA3282624DB006E656D /* TGCodeRows.xcdatamodeld in Sources */,
+				5350C839282A206E00603059 /* APPConfig.m in Sources */,
+				531F5454282BCA29002D10E6 /* TGFileList.m in Sources */,
+				53E36AD628263245006E656D /* DragDropView.m in Sources */,
+				5325687E283DFE1B00A1249A /* TGFileItem.m in Sources */,
+				533BEB1A289BEA1300508777 /* EditInfoCell.m in Sources */,
+				538A1865289CE086004391BB /* TGRowWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E36AAC282624DC006E656D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E36AB5282624DC006E656D /* TGCodeRowsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E36AB6282624DC006E656D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E36ABF282624DC006E656D /* TGCodeRowsUITests.m in Sources */,
+				53E36AC1282624DC006E656D /* TGCodeRowsUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53E36AB2282624DC006E656D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53E36A97282624DB006E656D /* TGCodeRows */;
+			targetProxy = 53E36AB1282624DC006E656D /* PBXContainerItemProxy */;
+		};
+		53E36ABC282624DC006E656D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53E36A97282624DB006E656D /* TGCodeRows */;
+			targetProxy = 53E36ABB282624DC006E656D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		531F544D282A67F5002D10E6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				531F544C282A67F5002D10E6 /* en */,
+				531F544F282A692C002D10E6 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		53E36AA6282624DC006E656D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E36AA7282624DC006E656D /* Base */,
+				531F544E282A692C002D10E6 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53E36AC2282624DC006E656D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53E36AC3282624DC006E656D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53E36AC5282624DC006E656D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D1CD589266E6F49198113BE /* Pods-TGCodeRows.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TGCodeRows/Resources/TGCodeRows.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"PPCounter\"",
+					"-framework",
+					"\"ReactiveObjC\"",
+					"-ld64",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGCodeRows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TGCodeRows/Appliction/TGCodeRows-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53E36AC6282624DC006E656D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F99A5EF16B95B2EBBAFB1F4 /* Pods-TGCodeRows.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TGCodeRows/Resources/TGCodeRows.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"PPCounter\"",
+					"-framework",
+					"\"ReactiveObjC\"",
+					"-ld64",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGCodeRows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TGCodeRows/Appliction/TGCodeRows-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		53E36AC8282624DC006E656D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878DD3578E36F2E736737DF6 /* Pods-TGCodeRowsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGCodeRowsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGCodeRows.app/Contents/MacOS/TGCodeRows";
+			};
+			name = Debug;
+		};
+		53E36AC9282624DC006E656D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFE88BCCDAFF126D88B81DF /* Pods-TGCodeRowsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGCodeRowsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGCodeRows.app/Contents/MacOS/TGCodeRows";
+			};
+			name = Release;
+		};
+		53E36ACB282624DC006E656D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074AC33A22942D0E087BA10F /* Pods-TGCodeRows-TGCodeRowsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGCodeRowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = TGCodeRows;
+			};
+			name = Debug;
+		};
+		53E36ACC282624DC006E656D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1887E36829F3A08345ACCEFC /* Pods-TGCodeRows-TGCodeRowsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Z53AJBVVJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGCodeRowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = TGCodeRows;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53E36A93282624DB006E656D /* Build configuration list for PBXProject "TGCodeRows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E36AC2282624DC006E656D /* Debug */,
+				53E36AC3282624DC006E656D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E36AC4282624DC006E656D /* Build configuration list for PBXNativeTarget "TGCodeRows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E36AC5282624DC006E656D /* Debug */,
+				53E36AC6282624DC006E656D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E36AC7282624DC006E656D /* Build configuration list for PBXNativeTarget "TGCodeRowsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E36AC8282624DC006E656D /* Debug */,
+				53E36AC9282624DC006E656D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E36ACA282624DC006E656D /* Build configuration list for PBXNativeTarget "TGCodeRowsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E36ACB282624DC006E656D /* Debug */,
+				53E36ACC282624DC006E656D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53E36AA1282624DB006E656D /* TGCodeRows.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53E36AA2282624DB006E656D /* TGCodeRows.xcdatamodel */,
+			);
+			currentVersion = 53E36AA2282624DB006E656D /* TGCodeRows.xcdatamodel */;
+			path = TGCodeRows.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53E36A90282624DB006E656D /* Project object */;
+}

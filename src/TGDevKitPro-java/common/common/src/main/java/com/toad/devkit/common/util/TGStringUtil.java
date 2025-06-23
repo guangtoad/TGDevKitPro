@@ -1,4 +1,4 @@
-package com.toad.java.util;
+package com.toad.devkit.common.util ;
 /*
  * *
  * @Description $description$

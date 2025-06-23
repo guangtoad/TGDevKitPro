@@ -1,0 +1,43 @@
+//
+//  TGDevUIKitPrefixHeader.pch
+//  TGDevKitPro-swift
+//
+//  Created by toad on 2025/6/19.
+//
+
+#ifndef TGDevUIKitPrefixHeader_pch
+#define TGDevUIKitPrefixHeader_pch
+
+
+#if os(iOS)
+
+    #ifdef __OBJC__
+
+    #elseif swift(>=5.0)
+        #error Unkonw OS
+//        import UIKit
+    #else
+
+    #endif
+
+#endif
+
+
+//
+//#if os(iOS)
+//#end
+//#if TARGET_OS_OSX
+//import Cocoa
+//#elseif TARGET_OS_IOS
+//import UIKit
+//#elseif TARGET_OS_TV
+//#elseif TARGET_OS_WATCH
+//#else
+
+//#endif
+//
+//#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* TGDevUIKitPrefixHeader_pch */

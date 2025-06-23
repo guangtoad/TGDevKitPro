@@ -1,0 +1,6 @@
+framework module Pods_TGCodeRowsTests {
+  umbrella header "Pods-TGCodeRowsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

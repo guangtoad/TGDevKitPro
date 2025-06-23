@@ -1,4 +1,4 @@
-package com.toad.jmeter.util.elc;
+package com.toad.plugin.jmeter;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -13,11 +13,11 @@ public class asdasd {
       List<String> keys = Arrays.asList("USERNAME","AUTH_CODE","DCMTYPE");
       List<String> values = new ArrayList<>();
       for (String key : keys) {
-          String value = vars.get("USERNAME");
-          if (null == value ){
-              value = "-";
-          }
-          values.add(value);
+//          String value = vars.get("USERNAME");
+//          if (null == value ){
+//              value = "-";
+//          }
+//          values.add(value);
       }
 
       String outStrin = values.stream().map(String::valueOf).collect(Collectors.joining(","));

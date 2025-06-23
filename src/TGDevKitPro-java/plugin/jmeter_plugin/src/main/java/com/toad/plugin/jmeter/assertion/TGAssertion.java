@@ -1,5 +1,4 @@
-package com.toad.java.util.jmeter.assertion;
-import com.toad.java.util.jmeter.bean.TGBSHBean;
+package com.toad.plugin.jmeter.assertion;
 import org.apache.jmeter.samplers.SampleResult;
 import org.apache.log4j.Logger;
 import bsh.*;
@@ -11,5 +10,5 @@ public class TGAssertion {
     Logger log;
     public SampleResult prev;
     boolean IsSuccess;
-    public TGBSHBean bsh;
+//    public TGBSHBean bsh;
 }

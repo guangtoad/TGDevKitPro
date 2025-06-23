@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>com.toad</groupId>
-            <artifactId>server</artifactId>
+            <artifactId>DevKitPro-MockApi</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>

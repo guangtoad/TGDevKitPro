@@ -1,4 +1,4 @@
-package com.toad.java.util;
+package com.toad.plugin.jmeter;
 
 public class OutputStyle {
     String Path;

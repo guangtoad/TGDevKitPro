@@ -3,7 +3,7 @@ package com.toad.java;
 //import com.sun.org.apache.xpath.internal.operations.Bool;
 import com.toad.java.tool.bsSprict.BSCException;
 import com.toad.java.tool.bsSprict.BSCTool;
-import com.toad.java.util.TGStringUtil;
+import com.toad.devkit.common.util .TGStringUtil;
 //import sun.text.resources.iw.FormatData_iw_IL;
 
 import java.io.Console;

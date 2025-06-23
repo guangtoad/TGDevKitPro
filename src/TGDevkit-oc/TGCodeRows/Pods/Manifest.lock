@@ -1,0 +1,20 @@
+PODS:
+  - PPCounter (0.6.0)
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - PPCounter
+  - ReactiveObjC
+
+SPEC REPOS:
+  trunk:
+    - PPCounter
+    - ReactiveObjC
+
+SPEC CHECKSUMS:
+  PPCounter: da37c0d8bfeeffe7ef4c331468203e17f2e30fbf
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: 8d5651f87bfc4515bf62c359bb381538a47c4ad0
+
+COCOAPODS: 1.12.1

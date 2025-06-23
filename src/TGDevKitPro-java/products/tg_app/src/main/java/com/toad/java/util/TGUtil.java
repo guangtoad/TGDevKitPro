@@ -9,7 +9,7 @@
  * /
  */
 
-package com.toad.java.util;
+package com.toad.devkit.common.util ;
 
 /**
  * 工具类

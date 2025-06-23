@@ -70,11 +70,18 @@
 			<artifactId>commons-codec</artifactId>
 			<version>1.15</version>
 		</dependency>
+
+		<!-- Log4j2 核心 -->
 		<dependency>
-			<!--	Log4 日志	-->
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.23.1</version> <!-- 使用最新版本 -->
+		</dependency>
+		<!-- SLF4J 桥接（可选，如需兼容 SLF4J API） -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j2-impl</artifactId>
+			<version>2.23.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -125,23 +132,6 @@
 			<groupId>jaxen</groupId>
 			<artifactId>jaxen</artifactId>
 		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-log4j2</artifactId>-->
-<!--			<version>2.7.3</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			&lt;!&ndash; log4j2 日志 &ndash;&gt;-->
-<!--			<groupId>org.apache.logging.log4j</groupId>-->
-<!--			<artifactId>log4j-api</artifactId>-->
-<!--			<version>${log4j2.version}</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			&lt;!&ndash; log4j2 日志实面 &ndash;&gt;-->
-<!--			<groupId>org.apache.logging.log4j</groupId>-->
-<!--			<artifactId>log4j-core</artifactId>-->
-<!--			<version>${log4j2.version}</version>-->
-<!--		</dependency>-->
 		<!--	文档想相关	-->
 		<dependency>
 			<!--	Swagger		-->
@@ -166,7 +156,6 @@
 			<version>2.3.1</version>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
